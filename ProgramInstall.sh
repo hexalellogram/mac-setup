@@ -43,6 +43,7 @@ brew cask install vmware-fusion
 # Menubar Apps
 brew cask install dropbox
 brew cask install google-drive
+brew cask install onedrive
 brew cask install nordvpn
 brew cask install semulov
 brew cask install spotify-notifications
@@ -79,7 +80,6 @@ brew tap buo/cask-upgrade
 brew cask install brew-cask-upgrade
 
 # Install apps from Mac App Store
-mas install 823766827 # OneDrive
 mas install 937984704 # Amphetamine
 mas install 409201541 # Pages
 mas install 409183694 # Keynote
