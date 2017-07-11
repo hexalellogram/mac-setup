@@ -20,6 +20,7 @@ brew install mas
 brew install wget
 brew install tree
 brew install m-cli
+brew install archey
 
 # Enable cask-versions
 brew tap caskroom/verisons
