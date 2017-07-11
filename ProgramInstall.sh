@@ -13,6 +13,7 @@ xcode-select -s /Applications/Xcode-beta.app
 
 # Install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
 
 # Install brew command line tools
 brew install mas
@@ -59,11 +60,19 @@ brew cask install qlcolorcode
 brew cask install qlmarkdown 
 brew cask install qlstephen
 
+# install brew-cask-upgrade
+brew tap buo/cask-upgrade
+brew cask install brew-cask-upgrade
+
 # Install apps from Mac App Store
 mas install 823766827 # OneDrive
 mas install 937984704 # Amphetamine
 mas install 409201541 # Pages
 mas install 409183694 # Keynote
 mas install 409203825 # Numbers
+
+# Cleanup
+brew prune
+brew cleanup
 
 echo Core apps not installed and must be installed manually: Acrok Video Converter, Winclone, all Steam games
