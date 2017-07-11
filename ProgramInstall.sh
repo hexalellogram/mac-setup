@@ -59,3 +59,10 @@ brew cask install qlcolorcode
 brew cask install qlmarkdown 
 brew cask install qlstephen
 
+# Install apps from Mac App Store
+mas install 823766827 # OneDrive
+mas install 937984704 # Amphetamine
+mas install 409201541 # Pages
+mas install 409183694 # Keynote
+mas install 409203825 # Numbers
+
