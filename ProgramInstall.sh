@@ -19,6 +19,7 @@ brew update
 brew install mas
 brew install wget
 brew install tree
+brew install m-cli
 
 # Enable cask-versions
 brew tap caskroom/verisons
