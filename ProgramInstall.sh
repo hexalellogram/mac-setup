@@ -77,7 +77,7 @@ brew cask install visual-studio-code
 brew cask install powershell
 
 # Other Apps/Utilities
-echo "Installing other Apps/Utilities"
+echo "Installing Other Apps/Utilities"
 brew cask install adobe-acrobat-reader
 brew cask install android-file-transfer
 brew cask install appcleaner
@@ -86,7 +86,7 @@ brew cask install tuxera-ntfs
 brew cask install osxfuse
 
 # Install quick look generators
-echo "Installing quick look generators"
+echo "Installing Finder Quick Look generators"
 brew cask install betterzipql 
 brew cask install qlcolorcode 
 brew cask install qlmarkdown 
@@ -108,8 +108,8 @@ echo "Cleaning up"
 brew prune
 brew cleanup
 
-echo "The following Apps must be installed manually:"
+echo "Installation of all programs complete!"
+echo "The following apps must be installed manually:"
 echo "    Acrok Video Converter"
 echo "    Winclone"
 echo "    All Steam games"
-# Apps not installed that must be installed manually: Acrok Video Converter, Winclone, all Steam games"
