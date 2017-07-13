@@ -30,6 +30,7 @@ brew install wget
 brew install tree
 brew install m-cli
 brew install archey
+brew install hub
 
 # Enable cask-versions
 brew tap caskroom/verisons
