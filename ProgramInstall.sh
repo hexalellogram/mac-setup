@@ -10,14 +10,15 @@ fi
 
 echo -n "Making sure Xcode-beta is installed..."
 if [ -d /Applications/Xcode-beta.app ]; then
-    echo " Pass!"
+    echo "Xcode-beta.app detected!"
+    xcode-select -s /Applications/Xcode-beta.app # Set Xcode path to Xcode-beta
+elif  [-d /Applications/Xcode.app ]; then
+    echo "Xcode.app detected!"
+    xcode-select -s /Applications/Xcode.app # Set Xcode path to Xcode
 else
-    echo " Fail! Exiting..."
+    echo "Xcode-beta or Xcode not found! Exiting..."
     exit 1
 fi
-
-# Set Xcode path to Xcode-beta
-xcode-select -s /Applications/Xcode-beta.app
 
 # Install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -50,7 +51,7 @@ brew cask install carbon-copy-cloner
 brew cask install spotify
 brew cask install microsoft-office
 brew cask install vmware-fusion
-
+brew cask install yakyak --appdir=/Applications
 
 # Menubar Apps
 echo "Installing Menubar Apps"
