@@ -85,6 +85,7 @@ brew cask install appcleaner
 brew cask install the-unarchiver
 brew cask install tuxera-ntfs
 brew cask install osxfuse
+brew cask install android-platform-tools
 
 # Install quick look generators
 echo "Installing Finder Quick Look generators"
