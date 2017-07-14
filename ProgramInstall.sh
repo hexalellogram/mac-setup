@@ -51,7 +51,6 @@ brew cask install carbon-copy-cloner
 brew cask install spotify
 brew cask install microsoft-office
 brew cask install vmware-fusion
-brew cask install yakyak --appdir=/Applications
 
 # Menubar Apps
 echo "Installing Menubar Apps"
