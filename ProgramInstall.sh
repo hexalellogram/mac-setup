@@ -40,10 +40,10 @@ brew tap caskroom/verisons
 
 # Core/Essential Apps
 echo "Installing Core/Essential Apps"
+brew cask install 1password-beta # highest priority since I need my passwords
 brew cask install steam # high priority so I can begin downloading games
 sh /Applications/Steam.app/Contents/MacOS/steam.sh >/dev/null 2>&1 &
 echo "We just installed Steam so please log into Steam and begin downloading your games now, thanks."
-brew cask install 1password-beta
 brew cask install google-chrome-beta
 brew cask install insync
 brew cask install bettertouchtool
@@ -111,6 +111,13 @@ brew cleanup
 
 echo "Installation of all programs complete!"
 echo "The following apps must be installed manually:"
-echo "    Acrok Video Converter"
-echo "    Winclone"
-echo "    All Steam games"
+echo "  Acrok Video Converter Ultimate"
+echo "  Winclone"
+echo "  All Steam games"
+echo ""
+echo "The following apps must be activated:"
+echo "  Acrok Video Converter Ultimate (not installed)"
+echo "  Winclone (not installed)"
+echo "  Carbon Copy Cloner"
+echo "  Tuxera NTFS"
+echo "  VMware Fusion"
