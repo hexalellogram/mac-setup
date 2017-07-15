@@ -12,7 +12,7 @@ echo -n "Making sure Xcode-beta is installed..."
 if [ -d /Applications/Xcode-beta.app ]; then
     echo "Xcode-beta.app detected!"
     xcode-select -s /Applications/Xcode-beta.app # Set Xcode path to Xcode-beta
-elif  [-d /Applications/Xcode.app ]; then
+elif  [ -d /Applications/Xcode.app ]; then
     echo "Xcode.app detected!"
     xcode-select -s /Applications/Xcode.app # Set Xcode path to Xcode
 else
