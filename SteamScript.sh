@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "Please DO NOT close this Terminal window!"
 osascript -e 'quit app "Steam"'
 read -p "Please ensure Steam has quit (force quit if needed), sometimes Steam is wonky and won't quit."
 read -p "Enter Steam Username: " username
@@ -18,3 +19,5 @@ steamcmd +login $username $password +app_update 232250 validate
 
 echo "Installing Civilization V + DLC"
 steamcmd +login $username $password +app_update 8930 validate # DLC is included with this
+
+echo "Steam Games Installed! You may now close this Terminal window"
