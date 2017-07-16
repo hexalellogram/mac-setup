@@ -43,8 +43,10 @@ brew tap caskroom/verisons
 echo "Installing Core/Essential Apps"
 brew cask install 1password-beta # highest priority since I need my passwords
 brew cask install steam # high priority so I can begin downloading games
-sh /Applications/Steam.app/Contents/MacOS/steam.sh >/dev/null 2>&1 &
-echo "We just installed Steam so please log into Steam and begin downloading your games now, thanks."
+echo "Beginning Installation of Steam Games in Background (do not close the new window)"
+osascript -e 'tell app "Terminal" to do script "cd $PWD && ./SteamScript.sh"'
+# sh /Applications/Steam.app/Contents/MacOS/steam.sh >/dev/null 2>&1 &
+# echo "We just installed Steam so please log into Steam and begin downloading your games now, thanks."
 brew cask install google-chrome-beta
 brew cask install insync
 brew cask install bettertouchtool
