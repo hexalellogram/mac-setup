@@ -52,12 +52,11 @@ brew cask install insync
 brew cask install bettertouchtool
 
 echo "Configuring BTT Window Management KB Shortcuts"
-dir = $PWD
 cd BTTFiles
 cp btt_data_store.v2 ~/Library/Application\ Support/BetterTouchTool/
 cp btt_data_store.v2-shm ~/Library/Application\ Support/BetterTouchTool/
 cp btt_data_store.v2-wal ~/Library/Application\ Support/BetterTouchTool/
-cd dir
+cd -
 echo "BTT Window Management KB Shortcuts Configured! See the repository wiki for details about what these keyboard shortcuts are and what they do!"
 
 brew cask install carbon-copy-cloner
@@ -132,6 +131,21 @@ echo "Mac App Store Apps Installed!"
 echo "Cleaning up"
 brew prune
 brew cleanup
+
+echo "Setting Up Touch ID Sudo"
+git clone https://github.com/hamzasood/pam_touchid
+cd pam_touchid
+xcodebuild -project pam_touchid.xcodeproj build
+cp build/Release/pam_touchid.so.2 dir
+cd -
+chmod 444 pam_touchid.so.2
+chown root:wheel pam_touchid.so.2
+mkdir /usr/local/lib/ && mkdir usr/local/lib/pam/
+sudo cp pam_touchid.so.2 /usr/local/lib/pam/
+sudo cp /etc/pam.d/sudo $PWD/sudo.bak
+echo "Old /etc/pam.d/sudo backed up to $PWD/sudo.bak"
+sudo cp sudo /etc/pam.d/sudo
+echo "Touch ID Sudo Set Up"
 
 
 echo "Setting Startup Applications"
