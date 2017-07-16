@@ -50,6 +50,15 @@ osascript -e 'tell app "Terminal" to do script "cd $PWD && ./SteamScript.sh"'
 brew cask install google-chrome-beta
 brew cask install insync
 brew cask install bettertouchtool
+
+echo "Configuring BTT Window Management KB Shortcuts"
+dir = $PWD
+cd BTTFiles
+cp btt_data_store.v2 ~/Library/Application\ Support/BetterTouchTool/
+cp btt_data_store.v2-shm ~/Library/Application\ Support/BetterTouchTool/
+cp btt_data_store.v2-wal ~/Library/Application\ Support/BetterTouchTool/
+echo "BTT Window Management KB Shortcuts Configured! See the repository wiki for details about what these keyboard shortcuts are and what they do!"
+
 brew cask install carbon-copy-cloner
 brew cask install spotify
 brew cask install microsoft-office
