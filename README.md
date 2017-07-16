@@ -69,3 +69,8 @@ Paste this into the macOS Terminal:
 - Pages
 - Keynote
 - Numbers
+
+## Other Stuff You Might Need to Know
+[Code of Conduct](https://github.com/hexalellogram/mac-setup/blob/master/CODE_OF_CONDUCT.md)
+This project is licensed under the [MIT License](https://github.com/hexalellogram/mac-setup/blob/master/LICENSE)
+
