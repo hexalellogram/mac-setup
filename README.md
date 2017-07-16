@@ -70,6 +70,9 @@ Paste this into the macOS Terminal:
 - Keynote
 - Numbers
 
+## Other Stuff Configured
+- [Touch ID PAM Module](https://github.com/hamzasood/pam_touchid)
+
 ## Other Stuff You Might Need to Know
 - [Code of Conduct](https://github.com/hexalellogram/mac-setup/blob/master/CODE_OF_CONDUCT.md)
 - This project is licensed under the [MIT License](https://github.com/hexalellogram/mac-setup/blob/master/LICENSE)
