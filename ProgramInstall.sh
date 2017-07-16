@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "welcome to Hexalellogram's Mac Setup Scripts."
-read -p "Do you want to proceed with installation of Homebrew and all programs, and is Xcode (or Xcode-beta) installed? (Y/n): " installAnswer
+read -n 1 -p "Do you want to proceed with installation of Homebrew and all programs, and is Xcode (or Xcode-beta) installed? (Y/n): " installAnswer
 if echo $installAnswer | grep -iq "^n"; then
     exit 1
 else
@@ -133,7 +133,7 @@ brew prune
 brew cleanup
 
 # Install Touch ID PAM Module
-read -p "Do you want to proceed with installation of Homebrew and all programs, and is Xcode (or Xcode-beta) installed? (y/n) (HIGHLY EXPERIMENTAL): " pamAnswer
+read -n 1 -p "Do you want to proceed with installation of Homebrew and all programs, and is Xcode (or Xcode-beta) installed? (y/n) (HIGHLY EXPERIMENTAL): " pamAnswer
 if echo $pamAnswer | grep -iq "^y"; then
     echo "Setting Up Touch ID PAM Module"
     git clone https://github.com/hamzasood/pam_touchid

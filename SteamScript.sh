@@ -2,7 +2,7 @@
 
 echo "Please DO NOT close this Terminal window!"
 osascript -e 'quit app "Steam"'
-read -p "Please ensure Steam has quit (force quit if needed), sometimes Steam is wonky and won't quit."
+read -p "Please ensure Steam has quit (force quit if needed), sometimes Steam is wonky and won't quit. (Press Enter to continue)"
 read -p "Enter Steam Username: " username
 read -s -p "Enter Steam Password: " password; echo
 echo "You will need to enter your Steam Guard code for the first time soon so have your phone ready."
