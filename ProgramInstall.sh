@@ -2,7 +2,7 @@
 
 echo "Do you want to proceed with installation of Homebrew and all programs, and is Xcode (or Xcode-beta) installed? (Y/n): "
 read -n installAnswer
-if echo "$installAnswer" | grep -iq "^n"; then
+if echo $installAnswer | grep -iq "^n"; then
     exit 1
 else
     echo "You have chosen to proceed with application installation."
@@ -32,6 +32,7 @@ brew install tree
 brew install m-cli
 brew install archey
 brew install hub
+brew install trash
 
 # Enable cask-versions
 brew tap caskroom/verisons
