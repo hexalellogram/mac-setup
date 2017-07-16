@@ -1,14 +1,14 @@
 #!/bin/bash
 
-echo "Do you want to proceed with installation of Homebrew and all programs, and is Xcode (or Xcode-beta) installed? (Y/n): "
-read installAnswer
+echo "welcome to Hexalellogram's Mac Setup Scripts."
+read -p "Do you want to proceed with installation of Homebrew and all programs, and is Xcode (or Xcode-beta) installed? (Y/n): " installAnswer
 if echo $installAnswer | grep -iq "^n"; then
     exit 1
 else
     echo "You have chosen to proceed with application installation."
 fi
 
-echo -n "Making sure Xcode-beta is installed..."
+echo -n "Making sure Xcode or Xcode-beta is installed..."
 if [ -d /Applications/Xcode-beta.app ]; then
     echo "Xcode-beta.app detected!"
     sudo xcode-select -s /Applications/Xcode-beta.app # Set Xcode path to Xcode-beta
@@ -132,22 +132,28 @@ echo "Cleaning up"
 brew prune
 brew cleanup
 
-echo "Setting Up Touch ID Sudo"
-git clone https://github.com/hamzasood/pam_touchid
-cd pam_touchid
-xcodebuild -project pam_touchid.xcodeproj build
-cp build/Release/pam_touchid.so.2 dir
-cd -
-chmod 444 pam_touchid.so.2
-chown root:wheel pam_touchid.so.2
-mkdir /usr/local/lib/ && mkdir usr/local/lib/pam/
-sudo cp pam_touchid.so.2 /usr/local/lib/pam/
-sudo cp /etc/pam.d/sudo $PWD/sudo.bak
-echo "Old /etc/pam.d/sudo backed up to $PWD/sudo.bak"
-sudo cp sudo /etc/pam.d/sudo
-echo "Touch ID Sudo Set Up"
+# Install Touch ID PAM Module
+read -p "Do you want to proceed with installation of Homebrew and all programs, and is Xcode (or Xcode-beta) installed? (y/n) (HIGHLY EXPERIMENTAL): " pamAnswer
+if echo $pamAnswer | grep -iq "^y"; then
+    echo "Setting Up Touch ID PAM Module"
+    git clone https://github.com/hamzasood/pam_touchid
+    cd pam_touchid
+    xcodebuild -project pam_touchid.xcodeproj build
+    cp build/Release/pam_touchid.so.2 dir
+    cd -
+    chmod 444 pam_touchid.so.2
+    chown root:wheel pam_touchid.so.2
+    mkdir /usr/local/lib/ && mkdir /usr/local/lib/pam/
+    sudo cp pam_touchid.so.2 /usr/local/lib/pam/
+    sudo cp /etc/pam.d/sudo $PWD/sudo.bak
+    echo "Old /etc/pam.d/sudo backed up to $PWD/sudo.bak"
+    sudo cp sudo /etc/pam.d/sudo
+    echo "Touch ID PAM Module Set Up"
+else
+    echo "You have chosen to bypass the installation of the Touch ID PAM Modue."
+fi
 
-
+# Set Startup Applications
 echo "Setting Startup Applications"
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Reminders.app", hidden:false, name:"Reminders"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Mail.app", hidden:false, name:"Mail"}'
@@ -168,6 +174,7 @@ osascript -e 'tell application "System Events" to make login item at end with pr
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Amphetamine.app", hidden:false, name:"Amphetamine"}'
 echo "Startup Applications Set!"
 
+# Finishing dialogs
 echo "Installation of all programs complete!"
 echo "The following apps must be installed manually:"
 echo "  Acrok Video Converter Ultimate"
