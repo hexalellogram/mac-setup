@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Do you want to proceed with installation of Homebrew and all programs, and is Xcode (or Xcode-beta) installed? (Y/n): "
-read -n installAnswer
+read installAnswer
 if echo $installAnswer | grep -iq "^n"; then
     exit 1
 else
