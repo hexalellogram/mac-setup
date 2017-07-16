@@ -1,8 +1,71 @@
 # mac-setup
 
-Hexalellogram's macOS Setup Script
+Hexalellogram's macOS Setup Scripts
 
 ## Download and Run:
 Paste this into the macOS Terminal:
 
 `curl -LOk https://github.com/hexalellogram/mac-setup/archive/master.zip && unzip -a master.zip && rm master.zip && cd mac-setup-master && chmod +x ProgramInstall.sh && ./ProgramInstall.sh`
+
+## Binaries Installed via Homebrew
+- `mas`
+- `wget`
+- `tree`
+- `m-cli`
+- `archey`
+- `hub`
+- `trash`
+
+## GUI Applications Installed
+
+### Core/Essentials
+- 1Password Beta
+- Steam
+- Google Chrome Beta
+- Insync
+- BetterTouchTool ([Custom Settings](https://github.com/hexalellogram/mac-setup/wiki/BTT-Shortcuts) automatically imported)
+- Carbon Copy Cloner
+- Spotify
+- Microsoft Office
+- VMware Fusion
+
+### Menubar Apps
+- Dropbox
+- Google Drive (Removed and to later be replaced with Drive File Stream) 
+- OneDrive
+- NordVPN
+- Semulov
+- Spotify Notifications
+- MenuMeters (Yujitach Port)
+
+### [Objective-See](https://objective-see.com/) Security Apps
+- BlockBlock
+- OverSight
+- RansomWhere
+
+### Code/Computer Science Apps
+- GitKraken
+- Java
+- Eclipse Java IDE
+- Visual Studio Code
+- PowerShell
+
+### Other Apps/Utilities
+- Adobe Acrobat Reader
+- Android File Transfer
+- AppCleaner
+- Tuxera NTFS
+- FUSE for macOS
+- Android Platform Tools (`adb`, `fastboot`, etc.)
+
+### Finder Quick Look Generators
+- BetterZipQL
+- QLColorCode
+- QLMarkdown
+- QLStephen
+
+### Mac App Store Apps
+- Amphetamine
+- Pages
+- Keynote
+- Numbers
