@@ -2,7 +2,7 @@
 
 echo "Do you want to proceed with installation of Homebrew and all programs, and is Xcode (or Xcode-beta) installed? (Y/n): "
 read -n installAnswer
-if [ echo $installAnswer | grep -iq "^n" ]; then
+if echo $installAnswer | grep -iq "^n"; then
     exit 1
 else
     echo "You have chosen to proceed with application installation."
@@ -11,7 +11,7 @@ fi
 echo -n "Making sure Xcode-beta is installed..."
 if [ -d /Applications/Xcode-beta.app ]; then
     echo "Xcode-beta.app detected!"
-    xsudo code-select -s /Applications/Xcode-beta.app # Set Xcode path to Xcode-beta
+    sudo xcode-select -s /Applications/Xcode-beta.app # Set Xcode path to Xcode-beta
 elif  [ -d /Applications/Xcode.app ]; then
     echo "Xcode.app detected!"
     sudo xcode-select -s /Applications/Xcode.app # Set Xcode path to Xcode
