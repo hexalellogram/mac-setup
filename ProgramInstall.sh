@@ -1,12 +1,18 @@
 #!/bin/bash
 
 echo "welcome to Hexalellogram's Mac Setup Scripts."
-read -n 1 -p "Do you want to proceed with installation of Homebrew and all programs, and is Xcode (or Xcode-beta) installed? (Y/n): " installAnswer && echo
+read -n 1 -p "Do you want to proceed with running this script (see README.md for what it does), and is Xcode (or Xcode-beta) installed? (Y/n): " installAnswer && echo
 if echo $installAnswer | grep -iq "^n"; then
     exit 1
 else
-    echo "You have chosen to proceed with application installation."
+    echo "You have chosen to proceed with running this script."
 fi
+
+echo "Making my Temp folder"
+mkdir ~/Temp
+
+echo "Gaining administrator privileges (these will be kept until the script is finished)"
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 echo -n "Making sure Xcode or Xcode-beta is installed..."
 if [ -d /Applications/Xcode-beta.app ]; then
@@ -44,6 +50,7 @@ echo "Installing Core/Essential Apps"
 brew cask install 1password-beta # highest priority since I need my passwords
 brew cask install steam # high priority so I can begin downloading games
 echo "Beginning Installation of Steam Games in Background (do not close the new window)"
+chmod + x SteamScript.sh
 osascript -e 'tell app "Terminal" to do script "cd $PWD && ./SteamScript.sh"'
 # sh /Applications/Steam.app/Contents/MacOS/steam.sh >/dev/null 2>&1 &
 # echo "We just installed Steam so please log into Steam and begin downloading your games now, thanks."
@@ -105,6 +112,7 @@ brew cask install the-unarchiver
 brew cask install tuxera-ntfs
 brew cask install osxfuse
 brew cask install android-platform-tools
+brew cask install transmission
 echo "Other Apps/Utilities Installed!"
 
 # Install quick look generators
@@ -187,3 +195,11 @@ echo "  Winclone (not installed)"
 echo "  Carbon Copy Cloner"
 echo "  Tuxera NTFS"
 echo "  VMware Fusion"
+
+read -n 1 -p "Would you like to configure macOS System Settings? (Y/n): " settingsAnswer && echo
+if echo $installAnswer | grep -iq "^n"; then
+    echo "You have chosen not to configure system settings."
+else
+    chmod +x SystemSettings.sh
+    ./SystemSettings.sh
+fi
