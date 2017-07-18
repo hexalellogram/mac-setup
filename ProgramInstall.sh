@@ -143,20 +143,8 @@ brew cleanup
 # Install Touch ID PAM Module
 read -n 1 -p "Do you want to proceed with installation of Homebrew and all programs, and is Xcode (or Xcode-beta) installed? (y/n) (HIGHLY EXPERIMENTAL): " pamAnswer && echo
 if echo $pamAnswer | grep -iq "^y"; then
-    echo "Setting Up Touch ID PAM Module"
-    git clone https://github.com/hamzasood/pam_touchid
-    cd pam_touchid
-    xcodebuild -project pam_touchid.xcodeproj build
-    cp build/Release/pam_touchid.so.2 dir
-    cd -
-    chmod 444 pam_touchid.so.2
-    chown root:wheel pam_touchid.so.2
-    mkdir /usr/local/lib/ && mkdir /usr/local/lib/pam/
-    sudo cp pam_touchid.so.2 /usr/local/lib/pam/
-    sudo cp /etc/pam.d/sudo $PWD/sudo.bak
-    echo "Old /etc/pam.d/sudo backed up to $PWD/sudo.bak"
-    sudo cp sudo /etc/pam.d/sudo
-    echo "Touch ID PAM Module Set Up"
+    chmod +x TouchIDSudo.sh
+    ./TouchIDSudo.sh
 else
     echo "You have chosen to bypass the installation of the Touch ID PAM Modue."
 fi
