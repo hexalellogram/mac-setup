@@ -72,6 +72,7 @@ Paste this into the macOS Terminal:
 
 ## Other Stuff Configured
 - [Touch ID PAM Module](https://github.com/hamzasood/pam_touchid)
+- macOS System Settings ([Read echo statements here for details](https://github.com/hexalellogram/mac-setup/blob/master/SystemSettings.sh))
 
 ## Other Stuff You Might Need to Know
 - [Code of Conduct](https://github.com/hexalellogram/mac-setup/blob/master/CODE_OF_CONDUCT.md)
