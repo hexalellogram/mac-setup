@@ -141,7 +141,7 @@ brew prune
 brew cleanup
 
 # Install Touch ID PAM Module
-read -n 1 -p "Do you want to proceed with installation of Homebrew and all programs, and is Xcode (or Xcode-beta) installed? (y/n) (HIGHLY EXPERIMENTAL): " pamAnswer && echo
+read -n 1 -p "Do you want to install the Touch ID PAM Module? (y/n) (HIGHLY EXPERIMENTAL): " pamAnswer && echo
 if echo $pamAnswer | grep -iq "^y"; then
     chmod +x TouchIDSudo.sh
     ./TouchIDSudo.sh

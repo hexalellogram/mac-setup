@@ -77,9 +77,10 @@ Paste this into the macOS Terminal:
 
 ### Steam Games
 - Team Fortress 2
-- Kerbal Sapce Program
+- Kerbal Space Program
 - Planetary Annihliation
 - Civilization V + DLC
+- Rocket League
 
 ## Other Stuff Configured
 - [Touch ID PAM Module](https://github.com/hamzasood/pam_touchid)

@@ -18,6 +18,9 @@ echo "Installing Planetary Annihilation"
 steamcmd +login $username $password +app_update 232250 validate +quit
 
 echo "Installing Civilization V + DLC"
-steamcmd +login $username $password +app_update 8930 validate  +quit # DLC is included with this
+steamcmd +login $username $password +app_update 8930 validate +quit # DLC is included with this
+
+echo "Installing Rocket League"
+steamcmd +login $username $password +app_update 252950 validate +quit
 
 echo "Steam Games Installed! You may now close this Terminal window"
