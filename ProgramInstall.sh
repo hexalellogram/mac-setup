@@ -141,10 +141,10 @@ brew prune
 brew cleanup
 
 # Install Touch ID PAM Module
-read -n 1 -p "Do you want to install the Touch ID PAM Module? (y/n) (HIGHLY EXPERIMENTAL): " pamAnswer && echo
-if echo $pamAnswer | grep -iq "^y"; then
-    chmod +x TouchIDSudo.sh
-    ./TouchIDSudo.sh
+read -n 1 -p "Do you want to install the Touch ID PAM Module? (Y/n) (HIGHLY EXPERIMENTAL): " pamAnswer && echo
+if echo $pamAnswer | grep -iq "^n"; then
+    chmod +x TouchIDPAM.sh
+    ./TouchIDPAM.sh
 else
     echo "You have chosen to bypass the installation of the Touch ID PAM Modue."
 fi
