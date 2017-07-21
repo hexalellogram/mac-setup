@@ -85,6 +85,7 @@ brew cask install nordvpn
 brew cask install semulov
 brew cask install spotify-notifications
 brew cask install yujitach-menumeters
+brew cask install vanilla
 echo "Menubar Apps Installed!"
 
 # Objective-See Security Apps
@@ -168,6 +169,7 @@ osascript -e 'tell application "System Events" to make login item at end with pr
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Carbon Copy Cloner.app/Contents/Library/LoginItems/CCC User Agent.app", hidden:false, name:"CCC User Agent"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Dropbox.app", hidden:false, name:"Dropbox"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Amphetamine.app", hidden:false, name:"Amphetamine"}'
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Vanilla.app", hidden:false, name:"Vanilla"}'
 echo "Startup Applications Set!"
 
 # Finishing dialogs
