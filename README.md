@@ -40,6 +40,7 @@ Paste this into the macOS Terminal:
 - Semulov
 - Spotify Notifications
 - MenuMeters (Yujitach Port)
+- Vanilla
 
 ### [Objective-See](https://objective-see.com/) Security Apps
 - BlockBlock
