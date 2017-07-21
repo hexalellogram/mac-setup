@@ -177,6 +177,9 @@ defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-ty
 defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
 defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
 
+echo "Remove Dock Show and Hide Delay"
+defaults write com.apple.Dock autohide-delay -float 0
+
 echo "Killing affected apps"
 for app in "Activity Monitor" \
 	"Address Book" \
