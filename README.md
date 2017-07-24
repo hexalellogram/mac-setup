@@ -61,6 +61,8 @@ Paste this into the macOS Terminal:
 - FUSE for macOS
 - Android Platform Tools (`adb`, `fastboot`, etc.)
 - Transmission
+- MakeMKV
+- Handbrake
 
 ### Finder Quick Look Generators
 - BetterZipQL

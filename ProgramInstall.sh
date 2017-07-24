@@ -113,6 +113,8 @@ brew cask install tuxera-ntfs
 brew cask install osxfuse
 brew cask install android-platform-tools
 brew cask install transmission
+brew cask install makemkv
+brew cask install handbrake
 echo "Other Apps/Utilities Installed!"
 
 # Install quick look generators
