@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# lots stolen from https://github.com/mathiasbynens/dotfiles/blob/master/.macos
+# Inspired by https://github.com/mathiasbynens/dotfiles/blob/master/.macos
 
 echo "Beginning macOS Settings configuration"
 
@@ -180,6 +180,14 @@ defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-ty
 echo "Remove Dock Show and Hide Delay"
 defaults write com.apple.Dock autohide-delay -float 0
 
+echo "Installing SF Mono Fonts for User Use"
+copy /Applications/Terminal.app/Contents/Resources/Fonts/* ~/Library/Fonts/
+
+echo "Terminal Profile"
+open ProModified.terminal
+defaults write com.apple.Terminal "Default Window Settings" -string "ProModified"
+defaults write com.apple.Terminal "Startup Window Settings" -string "ProModified"
+
 echo "Killing affected apps"
 for app in "Activity Monitor" \
 	"Address Book" \
@@ -200,3 +208,4 @@ for app in "Activity Monitor" \
 done
 
 echo "Done. Note that some of these changes require a logout/restart to take effect."
+echo "Terminal must be restarted manually for the Terminal profile settings to work."
