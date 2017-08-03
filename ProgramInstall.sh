@@ -115,6 +115,7 @@ brew cask install android-platform-tools
 brew cask install transmission
 brew cask install makemkv
 brew cask install handbrake
+brew cask install silverlight
 echo "Other Apps/Utilities Installed!"
 
 # Install quick look generators
