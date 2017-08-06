@@ -109,6 +109,7 @@ brew cask install adobe-acrobat-reader
 brew cask install android-file-transfer
 brew cask install appcleaner
 brew cask install the-unarchiver
+brew cask install keka
 brew cask install tuxera-ntfs
 brew cask install osxfuse
 brew cask install android-platform-tools
