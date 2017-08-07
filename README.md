@@ -91,6 +91,8 @@ Paste this into the macOS Terminal:
 - [Touch ID PAM Module](https://github.com/hamzasood/pam_touchid)
 - macOS System Settings ([Read echo statements here for details](https://github.com/hexalellogram/mac-setup/blob/master/SystemSettings.sh))
 - Create folder `~/Temp`
+- SF Mono Font Installed
+- Terminal configured to my custom settings (see [Pro Modified.terminal}(https://github.com/hexalellogram/mac-setup/blob/master/ProModified.terminal))
 
 ## Other Stuff You Might Need to Know
 - [Code of Conduct](https://github.com/hexalellogram/mac-setup/blob/master/CODE_OF_CONDUCT.md)
