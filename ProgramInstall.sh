@@ -92,6 +92,7 @@ echo "Installing Objective-See Security Apps"
 brew cask install blockblock
 brew cask install oversight
 brew cask install ransomwhere
+brew cask install whatsyoursign
 echo "Objective-See Security Apps Installed"
 
 # Code/Computer Science

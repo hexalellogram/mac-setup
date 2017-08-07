@@ -45,6 +45,7 @@ Paste this into the macOS Terminal:
 - BlockBlock
 - OverSight
 - RansomWhere
+- What's Your Sign?
 
 ### Code/Computer Science Apps
 - GitKraken
@@ -57,6 +58,8 @@ Paste this into the macOS Terminal:
 - Adobe Acrobat Reader
 - Android File Transfer
 - AppCleaner
+- The Unarchiver
+- Keka
 - Tuxera NTFS
 - FUSE for macOS
 - Android Platform Tools (`adb`, `fastboot`, etc.)
