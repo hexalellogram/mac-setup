@@ -86,6 +86,8 @@ brew cask install nordvpn
 brew cask install semulov
 brew cask install spotify-notifications
 brew cask install yujitach-menumeters
+chmod +x BrightnessMenulet.sh
+./BrightnessMenulet.sh
 echo "Menubar Apps Installed!"
 
 # Objective-See Security Apps
