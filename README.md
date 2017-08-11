@@ -31,6 +31,7 @@ Paste this into the macOS Terminal:
 - Spotify
 - Microsoft Office
 - VMware Fusion
+- YakYak
 
 ### Menubar Apps
 - Dropbox
@@ -93,6 +94,7 @@ Paste this into the macOS Terminal:
 - Create folder `~/Temp`
 - SF Mono Font Installed
 - Terminal configured to my custom settings (see [Pro Modified.terminal}(https://github.com/hexalellogram/mac-setup/blob/master/ProModified.terminal))
+- Startup applications configured as per my preferences
 
 ## Other Stuff You Might Need to Know
 - [Code of Conduct](https://github.com/hexalellogram/mac-setup/blob/master/CODE_OF_CONDUCT.md)

@@ -70,6 +70,7 @@ brew cask install carbon-copy-cloner
 brew cask install spotify
 brew cask install microsoft-office
 brew cask install vmware-fusion
+brew cask install yakyak
 echo "Core/Essential Apps installed!"
 
 # Menubar Apps
@@ -173,6 +174,7 @@ osascript -e 'tell application "System Events" to make login item at end with pr
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Carbon Copy Cloner.app/Contents/Library/LoginItems/CCC User Agent.app", hidden:false, name:"CCC User Agent"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Dropbox.app", hidden:false, name:"Dropbox"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Amphetamine.app", hidden:false, name:"Amphetamine"}'
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Yakya.app", hidden:false, name:"Yakyak"}'
 echo "Startup Applications Set!"
 
 # Finishing dialogs
