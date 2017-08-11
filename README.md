@@ -42,6 +42,7 @@ Paste this into the macOS Terminal:
 - Spotify Notifications
 - MenuMeters (Yujitach Port)
 - [Brightness Menulet](https://github.com/superduper/BrightnessMenulet)
+- RescueTime
 
 ### [Objective-See](https://objective-see.com/) Security Apps
 - BlockBlock
