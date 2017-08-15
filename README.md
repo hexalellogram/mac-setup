@@ -69,6 +69,9 @@ Paste this into the macOS Terminal:
 - Transmission
 - MakeMKV
 - Handbrake
+- MetaZ
+- Silverlight
+- NGROK
 
 ### Finder Quick Look Generators
 - BetterZipQL
