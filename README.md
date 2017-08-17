@@ -43,6 +43,7 @@ Paste this into the macOS Terminal:
 - MenuMeters (Yujitach Port)
 - [Brightness Menulet](https://github.com/superduper/BrightnessMenulet)
 - RescueTime
+- Itsycal
 
 ### [Objective-See](https://objective-see.com/) Security Apps
 - BlockBlock

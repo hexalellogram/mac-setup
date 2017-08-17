@@ -89,6 +89,7 @@ brew cask install yujitach-menumeters
 chmod +x BrightnessMenulet.sh
 ./BrightnessMenulet.sh
 brew cask install rescuetime
+brew cask install itsycal
 echo "Menubar Apps Installed!"
 
 # Objective-See Security Apps
@@ -179,19 +180,17 @@ osascript -e 'tell application "System Events" to make login item at end with pr
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Carbon Copy Cloner.app/Contents/Library/LoginItems/CCC User Agent.app", hidden:false, name:"CCC User Agent"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Dropbox.app", hidden:false, name:"Dropbox"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Amphetamine.app", hidden:false, name:"Amphetamine"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Yakya.app", hidden:false, name:"Yakyak"}'
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Yakyak.app", hidden:false, name:"Yakyak"}'
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Itsycal.app", hidden:false, name:"Itsycal"}'
 echo "Startup Applications Set!"
 
 # Finishing dialogs
 echo "Installation of all programs complete!"
 echo "The following apps must be installed manually:"
-echo "  Acrok Video Converter Ultimate"
 echo "  Winclone"
-echo "  All Steam games"
 echo ""
 echo "The following apps must be activated:"
-echo "  Acrok Video Converter Ultimate (not installed)"
-echo "  Winclone (not installed)"
+echo "  Winclone (not installed automatically)"
 echo "  Carbon Copy Cloner"
 echo "  Tuxera NTFS"
 echo "  VMware Fusion"
