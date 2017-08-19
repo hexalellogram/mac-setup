@@ -94,6 +94,10 @@ Paste this into the macOS Terminal:
 - Civilization V + DLC
 - Rocket League
 
+### Programs That Must Be Installed Manually
+- Winclone
+- GiFinder
+
 ## Other Stuff Configured
 - [Touch ID PAM Module](https://github.com/hamzasood/pam_touchid)
 - macOS System Settings ([Read echo statements here for details](https://github.com/hexalellogram/mac-setup/blob/master/SystemSettings.sh))
