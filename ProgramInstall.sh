@@ -39,6 +39,7 @@ brew install m-cli
 brew install archey
 brew install hub
 brew install trash
+brew install thefuck
 
 # Enable cask-versions
 brew tap caskroom/verisons
@@ -104,6 +105,7 @@ echo "Objective-See Security Apps Installed"
 echo "Installing Code/Computer Science Apps"
 brew cask install gitkraken
 brew cask install java
+brew cask install intellij-idea
 brew cask install eclipse-java
 brew cask install visual-studio-code
 brew cask install powershell

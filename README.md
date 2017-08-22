@@ -18,6 +18,7 @@ Paste this into the macOS Terminal:
 - `archey`
 - `hub`
 - `trash`
+- `thefuck`
 
 ## GUI Applications Installed
 
@@ -54,6 +55,7 @@ Paste this into the macOS Terminal:
 ### Code/Computer Science Apps
 - GitKraken
 - Java
+- IntelliJ IDEA
 - Eclipse Java IDE
 - Visual Studio Code
 - PowerShell
