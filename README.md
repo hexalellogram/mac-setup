@@ -98,7 +98,6 @@ Paste this into the macOS Terminal:
 
 ### Programs That Must Be Installed Manually
 - Winclone
-- GiFinder
 
 ## Other Stuff Configured
 - [Touch ID PAM Module](https://github.com/hamzasood/pam_touchid)
