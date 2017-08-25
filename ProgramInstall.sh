@@ -105,6 +105,7 @@ echo "Objective-See Security Apps Installed"
 echo "Installing Code/Computer Science Apps"
 brew cask install gitkraken
 brew cask install java
+brew cask install java6 # temporary fix for IntelliJ IDEA menu issues on High Sierra
 brew cask install intellij-idea
 brew cask install eclipse-java
 brew cask install visual-studio-code
