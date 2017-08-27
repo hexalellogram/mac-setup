@@ -103,7 +103,7 @@ Paste this into the macOS Terminal:
 - [Touch ID PAM Module](https://github.com/hamzasood/pam_touchid)
 - macOS System Settings ([Read echo statements here for details](https://github.com/hexalellogram/mac-setup/blob/master/SystemSettings.sh))
 - Create folder `~/Temp`
-- SF Mono Font Installed
+- San Francisco Pro Display, Pro Text, and Mono Fonts Installed
 - Terminal configured to my custom settings (see [Pro Modified.terminal}(https://github.com/hexalellogram/mac-setup/blob/master/ProModified.terminal))
 - Startup applications configured as per my preferences
 
