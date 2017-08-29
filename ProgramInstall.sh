@@ -55,7 +55,7 @@ chmod + x SteamScript.sh
 osascript -e 'tell app "Terminal" to do script "cd $PWD && ./SteamScript.sh"'
 # sh /Applications/Steam.app/Contents/MacOS/steam.sh >/dev/null 2>&1 &
 # echo "We just installed Steam so please log into Steam and begin downloading your games now, thanks."
-brew cask install google-chrome-beta
+brew cask install google-chrome
 brew cask install insync
 brew cask install bettertouchtool
 
@@ -128,6 +128,7 @@ brew cask install handbrake
 brew cask install metaz
 brew cask install silverlight
 brew cask install ngrok
+brew cask install firefox
 echo "Other Apps/Utilities Installed!"
 
 # Install quick look generators

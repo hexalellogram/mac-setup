@@ -25,7 +25,7 @@ Paste this into the macOS Terminal:
 ### Core/Essentials
 - 1Password Beta
 - Steam
-- Google Chrome Beta
+- Google Chrome
 - Insync
 - BetterTouchTool ([Custom Settings](https://github.com/hexalellogram/mac-setup/wiki/BTT-Shortcuts) automatically imported)
 - Carbon Copy Cloner
@@ -75,6 +75,7 @@ Paste this into the macOS Terminal:
 - MetaZ
 - Silverlight
 - NGROK
+- Firefox
 
 ### Finder Quick Look Generators
 - BetterZipQL
