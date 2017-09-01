@@ -55,6 +55,8 @@ chmod + x SteamScript.sh
 osascript -e 'tell app "Terminal" to do script "cd $PWD && ./SteamScript.sh"'
 # sh /Applications/Steam.app/Contents/MacOS/steam.sh >/dev/null 2>&1 &
 # echo "We just installed Steam so please log into Steam and begin downloading your games now, thanks."
+brew cask install karabiner-elements
+cp karabiner.json ~/.config/karabiner/karabiner.json # copy Karabiner Elements setup json in
 brew cask install google-chrome
 brew cask install insync
 brew cask install bettertouchtool
