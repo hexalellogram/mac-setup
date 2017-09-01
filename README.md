@@ -25,6 +25,7 @@ Paste this into the macOS Terminal:
 ### Core/Essentials
 - [1Password Beta](https://1password.com)
 - [Steam](http://store.steampowered.com/about/)
+- [Karabiner Elements](https://github.com/tekezo/Karabiner-Elements)
 - [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 - [Insync](https://www.insynchq.com)
 - [BetterTouchTool](https://www.boastr.net) ([Custom Settings](https://github.com/hexalellogram/mac-setup/wiki/BTT-Shortcuts) automatically imported)
