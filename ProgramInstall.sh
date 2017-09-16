@@ -94,6 +94,7 @@ chmod +x BrightnessMenulet.sh
 brew cask install rescuetime
 brew cask install itsycal
 brew cask install whatpulse
+brew cask install synergy
 echo "Menubar Apps Installed!"
 
 # Objective-See Security Apps
