@@ -26,7 +26,7 @@ Paste this into the macOS Terminal:
 - [1Password Beta](https://1password.com)
 - [Steam](http://store.steampowered.com/about/)
 - [Karabiner Elements](https://github.com/tekezo/Karabiner-Elements)
-- [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
+- [Firefox](https://www.mozilla.org/en-US/firefox/?utm_medium=referral&utm_source=firefox-com)
 - [Insync](https://www.insynchq.com)
 - [BetterTouchTool](https://www.boastr.net) ([Custom Settings](https://github.com/hexalellogram/mac-setup/wiki/BTT-Shortcuts) automatically imported)
 - [Carbon Copy Cloner](https://bombich.com)
@@ -46,6 +46,7 @@ Paste this into the macOS Terminal:
 - [Brightness Menulet](https://github.com/superduper/BrightnessMenulet)
 - [RescueTime](https://www.rescuetime.com)
 - [Itsycal](https://www.mowglii.com/itsycal/)
+- [WhatPulse](https://whatpulse.org/)
 
 ### [Objective-See](https://objective-see.com/) Security Apps
 - [BlockBlock](https://objective-see.com/products/blockblock.html)
@@ -77,7 +78,7 @@ Paste this into the macOS Terminal:
 - [MetaZ](https://griff.github.io/metaz/)
 - [Silverlight](https://www.microsoft.com/silverlight/)
 - [NGROK](https://ngrok.com)
-- [Firefox](https://www.mozilla.org/en-US/firefox/?utm_medium=referral&utm_source=firefox-com)
+- [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 
 ### Finder Quick Look Generators
 - [BetterZipQL](https://macitbetter.com/BetterZip-Quick-Look-Generator/)

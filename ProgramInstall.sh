@@ -57,7 +57,7 @@ osascript -e 'tell app "Terminal" to do script "cd $PWD && ./SteamScript.sh"'
 # echo "We just installed Steam so please log into Steam and begin downloading your games now, thanks."
 brew cask install karabiner-elements
 cp karabiner.json ~/.config/karabiner/karabiner.json # copy Karabiner Elements setup json in
-brew cask install google-chrome
+brew cask install firefox
 brew cask install insync
 brew cask install bettertouchtool
 
@@ -93,6 +93,7 @@ chmod +x BrightnessMenulet.sh
 ./BrightnessMenulet.sh
 brew cask install rescuetime
 brew cask install itsycal
+brew cask install whatpulse
 echo "Menubar Apps Installed!"
 
 # Objective-See Security Apps
@@ -130,7 +131,7 @@ brew cask install handbrake
 brew cask install metaz
 brew cask install silverlight
 brew cask install ngrok
-brew cask install firefox
+brew cask install google-chrome
 echo "Other Apps/Utilities Installed!"
 
 # Install quick look generators
