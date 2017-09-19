@@ -95,6 +95,7 @@ brew cask install rescuetime
 brew cask install itsycal
 brew cask install whatpulse
 brew cask install synergy
+brew cask install bartender
 echo "Menubar Apps Installed!"
 
 # Objective-See Security Apps

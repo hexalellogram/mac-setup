@@ -48,6 +48,7 @@ Paste this into the macOS Terminal:
 - [Itsycal](https://www.mowglii.com/itsycal/)
 - [WhatPulse](https://whatpulse.org/)
 - [Synergy](http://symless.com/)
+- [Bartender](https://www.macbartender.com/)
 
 ### [Objective-See](https://objective-see.com/) Security Apps
 - [BlockBlock](https://objective-see.com/products/blockblock.html)
