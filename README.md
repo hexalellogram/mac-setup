@@ -81,6 +81,7 @@ Paste this into the macOS Terminal:
 - [Silverlight](https://www.microsoft.com/silverlight/)
 - [NGROK](https://ngrok.com)
 - [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
+- [Zoom.us](https://www.zoom.us/)
 
 ### Finder Quick Look Generators
 - [BetterZipQL](https://macitbetter.com/BetterZip-Quick-Look-Generator/)

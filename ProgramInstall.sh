@@ -134,6 +134,7 @@ brew cask install metaz
 brew cask install silverlight
 brew cask install ngrok
 brew cask install google-chrome
+brew cask install zoomus
 echo "Other Apps/Utilities Installed!"
 
 # Install quick look generators
