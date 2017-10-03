@@ -168,10 +168,10 @@ brew cleanup
 # Install Touch ID PAM Module
 read -n 1 -p "Do you want to install the Touch ID PAM Module? (Y/n) (HIGHLY EXPERIMENTAL): " pamAnswer && echo
 if echo $pamAnswer | grep -iq "^n"; then
+    echo "You have chosen to bypass the installation of the Touch ID PAM Modue."
+else
     chmod +x TouchIDPAM.sh
     ./TouchIDPAM.sh
-else
-    echo "You have chosen to bypass the installation of the Touch ID PAM Modue."
 fi
 
 # Set Startup Applications
@@ -212,7 +212,7 @@ echo "  Tuxera NTFS"
 echo "  VMware Fusion"
 
 read -n 1 -p "Would you like to configure macOS System Settings? (Y/n): " settingsAnswer && echo
-if echo $installAnswer | grep -iq "^n"; then
+if echo $settingsAnswer | grep -iq "^n"; then
     echo "You have chosen not to configure system settings."
 else
     chmod +x SystemSettings.sh
