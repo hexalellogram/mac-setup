@@ -26,6 +26,7 @@ else
     exit 1
 fi
 
+echo "You have to accept the Xcode license. Keep pressing space until it prompts you to type accept."
 sudo xcodebuild -license
 
 # Install Homebrew
