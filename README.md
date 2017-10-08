@@ -37,7 +37,7 @@ Paste this into the macOS Terminal:
 
 ### Menubar Apps
 - [Dropbox](https://www.dropbox.com/?landing=dbv2)
-- [Google Drive](https://drive.google.com) (Removed and to later be replaced with Drive File Stream) 
+- [Google Backup and Sync](https://drive.google.com) 
 - [OneDrive Standalone](https://support.office.com/en-us/article/New-OneDrive-sync-client-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0) (See the "separate download" link under the Downloads header)
 - [NordVPN](https://nordvpn.com)
 - [Semulov](https://github.com/kainjow/Semulov)

@@ -82,11 +82,7 @@ echo "Core/Essential Apps installed!"
 # Menubar Apps
 echo "Installing Menubar Apps"
 brew cask install dropbox
-# brew cask install google-drive    # removed for now because google-drive has been replaced with google-backup-and-sync BUT 
-                                    # that is a client for personal accounts, I use google-drive for a G Suite account so I 
-                                    # am still waiting on Google to release Drive File Stream which is the new G Suite app
-                                    # which will replace Google Drive for G Suite accounts. Remember to change the Google 
-                                    # Drive login item below as well when Drive File Stream arrives
+brew cask install google-backup-and-sync
 brew cask install onedrive
 brew cask install nordvpn
 brew cask install semulov
