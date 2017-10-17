@@ -60,7 +60,6 @@ Paste this into the macOS Terminal:
 - [GitKraken](https://www.gitkraken.com)
 - [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
-- [Java 6](https://support.apple.com/kb/DL1572) (Temporary fix for IntelliJ IDEA menu bar on High Sierra)
 - [Eclipse Java IDE](http://www.eclipse.org)
 - [Visual Studio Code](https://code.visualstudio.com)
 - [PowerShell](https://github.com/PowerShell/PowerShell)
