@@ -43,6 +43,7 @@ brew install archey
 brew install hub
 brew install trash
 brew install thefuck
+brew install dos2unix
 
 # Enable cask-versions
 brew tap caskroom/verisons

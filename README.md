@@ -19,6 +19,7 @@ Paste this into the macOS Terminal:
 - `hub`
 - `trash`
 - `thefuck`
+- `dos2unix`
 
 ## GUI Applications Installed
 
