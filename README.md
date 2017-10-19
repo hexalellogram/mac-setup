@@ -20,7 +20,6 @@ Paste this into the macOS Terminal:
 - `trash`
 - `thefuck`
 - `dos2unix`
-- `maven`
 
 ## GUI Applications Installed
 

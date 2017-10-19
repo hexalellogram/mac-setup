@@ -44,7 +44,6 @@ brew install hub
 brew install trash
 brew install thefuck
 brew install dos2unix
-brew install maven
 
 # Enable cask-versions
 brew tap caskroom/verisons
