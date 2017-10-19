@@ -20,6 +20,7 @@ Paste this into the macOS Terminal:
 - `trash`
 - `thefuck`
 - `dos2unix`
+- `boxes`
 
 ## GUI Applications Installed
 
