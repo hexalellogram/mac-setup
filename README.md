@@ -95,6 +95,7 @@ Paste this into the macOS Terminal:
 - [Pages](https://www.apple.com/pages/)
 - [Keynote](https://www.apple.com/keynote/)
 - [Numbers](https://www.apple.com/numbers/)
+- [iMovie](https://www.apple.com/imovie/)
 
 
 ### Steam Games

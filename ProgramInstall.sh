@@ -155,6 +155,7 @@ mas install 937984704 # Amphetamine
 mas install 409201541 # Pages
 mas install 409183694 # Keynote
 mas install 409203825 # Numbers
+mas install 408981434 # iMovie
 echo "Mac App Store Apps Installed!"
 
 # Cleanup
