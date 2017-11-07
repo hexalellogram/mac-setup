@@ -84,6 +84,7 @@ Paste this into the macOS Terminal:
 - [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 - [Zoom.us](https://www.zoom.us/)
 - [IINA](https://lhc70000.github.io/iina/)
+- [Opera](https://www.opera.com/computer)
 
 ### Finder Quick Look Generators
 - [BetterZipQL](https://macitbetter.com/BetterZip-Quick-Look-Generator/)

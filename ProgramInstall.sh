@@ -136,6 +136,7 @@ brew cask install ngrok
 brew cask install google-chrome
 brew cask install zoomus
 brew cask install iina
+brew cask install opera
 echo "Other Apps/Utilities Installed!"
 
 # Install quick look generators
