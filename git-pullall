@@ -1,0 +1,18 @@
+#!/bin/bash
+
+pushd ~/Git &>/dev/null
+for folder in $(ls -1)
+do
+  if [ ! "$folder" == "EZMoney-Releases" ] 
+  then
+    if [[ -d $folder ]] 
+    then
+      git -C "$folder" pull origin master
+    else
+      echo "Not a folder... Skipping"
+    fi
+  else
+    echo "Detected EZMoney-Releases... Skipping"
+  fi
+done
+popd &>/dev/null
