@@ -200,6 +200,9 @@ echo "Startup Applications Set!"
 # Reset Launchpad to display Apple applications first in alphabetical order, then 3rd party applications on the following pages
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock 
 
+# Git pullall
+cp git-pullall /usr/local/bin/git-pullall
+
 # Finishing dialogs
 echo "Installation of all programs complete!"
 echo "The following apps must be installed manually:"
