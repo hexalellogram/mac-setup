@@ -28,7 +28,7 @@ Paste this into the macOS Terminal:
 - [1Password Beta](https://1password.com)
 - [Steam](http://store.steampowered.com/about/)
 - [Karabiner Elements](https://github.com/tekezo/Karabiner-Elements)
-- [Firefox](https://www.mozilla.org/en-US/firefox/?utm_medium=referral&utm_source=firefox-com)
+- [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 - [Insync](https://www.insynchq.com)
 - [BetterTouchTool](https://www.boastr.net) ([Custom Settings](https://github.com/hexalellogram/mac-setup/wiki/BTT-Shortcuts) automatically imported)
 - [Carbon Copy Cloner](https://bombich.com)
@@ -61,6 +61,7 @@ Paste this into the macOS Terminal:
 ### Code/Computer Science Apps
 - [GitKraken](https://www.gitkraken.com)
 - [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [Java 6](https://support.apple.com/kb/DL1572) (Temporary fix for IntelliJ IDEA menu bar on High Sierra)
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 - [Eclipse Java IDE](http://www.eclipse.org)
 - [Visual Studio Code](https://code.visualstudio.com)
@@ -81,7 +82,7 @@ Paste this into the macOS Terminal:
 - [MetaZ](https://griff.github.io/metaz/)
 - [Silverlight](https://www.microsoft.com/silverlight/)
 - [NGROK](https://ngrok.com)
-- [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
+- [Firefox](https://www.mozilla.org/en-US/firefox/?utm_medium=referral&utm_source=firefox-com)
 - [Zoom.us](https://www.zoom.us/)
 - [IINA](https://lhc70000.github.io/iina/)
 - [Opera](https://www.opera.com/computer)
@@ -117,6 +118,7 @@ Paste this into the macOS Terminal:
 - San Francisco [Pro Display](https://developer.apple.com/fonts/), [Pro Text](https://developer.apple.com/fonts/), and [Mono](https://simonfredsted.com/1438) Fonts Installed
 - Terminal configured to my custom settings (see [Pro Modified.terminal](https://github.com/hexalellogram/mac-setup/blob/master/ProModified.terminal))
 - Startup applications configured as per my preferences
+- `git pullall` - see file `git-pullall`
 
 ## Other Stuff You Might Need to Know
 - [Code of Conduct](https://github.com/hexalellogram/mac-setup/blob/master/CODE_OF_CONDUCT.md)

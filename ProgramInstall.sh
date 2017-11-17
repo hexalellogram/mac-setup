@@ -62,7 +62,7 @@ osascript -e 'tell app "Terminal" to do script "cd $PWD && ./SteamScript.sh"'
 # echo "We just installed Steam so please log into Steam and begin downloading your games now, thanks."
 brew cask install karabiner-elements
 cp karabiner.json ~/.config/karabiner/karabiner.json # copy Karabiner Elements setup json in
-brew cask install firefox
+brew cask install google-chrome
 brew cask install insync
 brew cask install bettertouchtool
 
@@ -111,6 +111,7 @@ echo "Objective-See Security Apps Installed"
 echo "Installing Code/Computer Science Apps"
 brew cask install gitkraken
 brew cask install java
+brew cask install java6 # temporary fix for IntelliJ IDEA menu issues on High Sierra
 brew cask install intellij-idea
 brew cask install eclipse-java
 brew cask install visual-studio-code
@@ -133,7 +134,7 @@ brew cask install handbrake
 brew cask install metaz
 brew cask install silverlight
 brew cask install ngrok
-brew cask install google-chrome
+brew cask install firefox
 brew cask install zoomus
 brew cask install iina
 brew cask install opera
