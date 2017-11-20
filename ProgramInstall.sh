@@ -138,6 +138,7 @@ brew cask install firefox
 brew cask install zoomus
 brew cask install iina
 brew cask install opera
+brew cask install etcher
 echo "Other Apps/Utilities Installed!"
 
 # Install quick look generators
