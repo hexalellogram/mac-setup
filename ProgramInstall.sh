@@ -207,8 +207,9 @@ cp git-pullall /usr/local/bin/git-pullall
 
 # Finishing dialogs
 echo "Installation of all programs complete!"
-echo "The following apps must be installed manually:"
+echo "The following apps must be installed manually as they are not in brew cask:"
 echo "  Winclone"
+echo "  Synergy 2"
 echo ""
 echo "The following apps must be activated:"
 echo "  Winclone (not installed automatically)"
