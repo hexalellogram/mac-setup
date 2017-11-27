@@ -139,6 +139,7 @@ brew cask install zoomus
 brew cask install iina
 brew cask install opera
 brew cask install etcher
+brew cask install vnc-viewer
 echo "Other Apps/Utilities Installed!"
 
 # Install quick look generators

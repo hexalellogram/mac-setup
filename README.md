@@ -87,6 +87,7 @@ Paste this into the macOS Terminal:
 - [IINA](https://lhc70000.github.io/iina/)
 - [Opera](https://www.opera.com/computer)
 - [Etcher](https://etcher.io/)
+- [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)
 
 ### Finder Quick Look Generators
 - [BetterZipQL](https://macitbetter.com/BetterZip-Quick-Look-Generator/)
