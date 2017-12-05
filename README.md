@@ -21,6 +21,7 @@ Paste this into the macOS Terminal:
 - `thefuck`
 - `dos2unix`
 - `boxes`
+- `cask-repair`
 
 ## GUI Applications Installed
 

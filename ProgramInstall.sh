@@ -154,6 +154,9 @@ echo "Finder Quick Look Generators Installed!"
 brew tap buo/cask-upgrade
 brew cask install brew-cask-upgrade
 
+# install homebrew cask repair tools
+brew install vitorgalvao/tiny-scripts/cask-repair
+
 # Install apps from Mac App Store
 echo "Installing Mac App Store Apps"
 mas install 937984704 # Amphetamine
