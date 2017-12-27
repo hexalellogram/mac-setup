@@ -26,7 +26,7 @@ Paste this into the macOS Terminal:
 ## GUI Applications Installed
 
 ### Core/Essentials
-- [1Password Beta](https://1password.com)
+- [1Password](https://1password.com)
 - [Steam](http://store.steampowered.com/about/)
 - [Karabiner Elements](https://github.com/tekezo/Karabiner-Elements)
 - [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)

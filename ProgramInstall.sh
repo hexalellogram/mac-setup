@@ -47,13 +47,13 @@ brew install dos2unix
 brew install boxes
 
 # Enable cask-versions
-brew tap caskroom/verisons
+brew tap caskroom/versions
 
 # Install apps from brew cask
 
 # Core/Essential Apps
 echo "Installing Core/Essential Apps"
-brew cask install 1password-beta # highest priority since I need my passwords
+brew cask install 1password # highest priority since I need my passwords
 brew cask install steam # high priority so I can begin downloading games
 echo "Beginning Installation of Steam Games in Background (do not close the new window)"
 chmod + x SteamScript.sh
