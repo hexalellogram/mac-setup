@@ -90,6 +90,7 @@ Paste this into the macOS Terminal:
 - [Etcher](https://etcher.io/)
 - [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)
 - [Epic Games Mac Client](https://www.epicgames.com/unrealtournament/download)
+- [Genymotion](https://www.genymotion.com/download/)
 
 ### Finder Quick Look Generators
 - [BetterZipQL](https://macitbetter.com/BetterZip-Quick-Look-Generator/)

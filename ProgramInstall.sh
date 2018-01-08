@@ -141,6 +141,7 @@ brew cask install opera
 brew cask install etcher
 brew cask install vnc-viewer
 brew cask install epic-games
+brew cask install genymotion
 echo "Other Apps/Utilities Installed!"
 
 # Install quick look generators
