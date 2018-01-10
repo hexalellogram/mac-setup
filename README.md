@@ -91,6 +91,7 @@ Paste this into the macOS Terminal:
 - [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)
 - [Epic Games Mac Client](https://www.epicgames.com/unrealtournament/download)
 - [Genymotion](https://www.genymotion.com/download/)
+- [Skype](https://www.skype.com/en/get-skype/)
 
 ### Finder Quick Look Generators
 - [BetterZipQL](https://macitbetter.com/BetterZip-Quick-Look-Generator/)
