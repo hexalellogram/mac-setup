@@ -114,8 +114,6 @@ Paste this into the macOS Terminal:
 - [Civilization V + DLC](http://www.civilization5.com)
 - [Rocket League](https://www.rocketleague.com)
 
-### Programs That Must Be Installed Manually
-- [Winclone](https://twocanoes.com/products/mac/winclone/)
 
 ## Other Stuff Configured
 - [Touch ID PAM Module](https://github.com/hamzasood/pam_touchid)
