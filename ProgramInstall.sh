@@ -35,7 +35,7 @@ brew update
 
 echo "Installing all binaries and applications from Brewfile"
 brew bundle # install all stuff from brew from Brewfile
-\
+
 
 echo "Beginning Installation of Steam Games in Background (do not close the new window)"
 chmod + x SteamScript.sh
