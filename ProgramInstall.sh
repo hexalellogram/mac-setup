@@ -60,6 +60,7 @@ chmod +x BrightnessMenulet.sh
 
 echo "Installing BetterZipQL Quick Look Generator"
 cp -R BetterZipQL.qlgenerator ~/Library/QuickLook/BetterZipQL.qlgenerator
+qlmanage -r
 
 # Cleanup
 echo "Cleaning up"
