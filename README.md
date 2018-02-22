@@ -122,7 +122,7 @@ Paste this into the macOS Terminal:
 - San Francisco [Pro Display](https://developer.apple.com/fonts/), [Pro Text](https://developer.apple.com/fonts/), and [Mono](https://simonfredsted.com/1438) Fonts Installed
 - Terminal configured to my custom settings (see [Pro Modified.terminal](https://github.com/hexalellogram/mac-setup/blob/master/ProModified.terminal))
 - Startup applications configured as per my preferences
-- `git pullall` - see file `git-pullall`
+- `git pullall` - pulls all Git repositories in the folder `~/Git` except if the folder is named `EZMoney-Releases`. Program is copied to the directory `/usr/local/bin` so the command `git pullall` can be run from any location.
 
 ## Applications To Be Installed Manually
 - [Winclone](https://twocanoes.com/products/mac/winclone/)
