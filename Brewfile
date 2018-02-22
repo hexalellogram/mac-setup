@@ -63,6 +63,9 @@ cask "nordvpn"
 cask "onedrive"
 cask "opera"
 cask "oversight"
+cask "qlcolorcode"
+cask "qlmarkdown"
+cask "qlstephen"
 cask "rescuetime"
 cask "semulov"
 cask "skype"
@@ -82,11 +85,14 @@ cask "yakyak"
 cask "yujitach-menumeters"
 cask "zoomus"
 cask "caskroom/versions/java6"
+cask "caskroom/versions/java8"
 mas "Amphetamine", id: 937984704
 mas "iMovie", id: 408981434
 mas "Install Mac OS X Lion", id: 444303913
+mas "Install OS X Mountain Lion", id: 537386512
 mas "Install OS X Yosemite", id: 915041082
 mas "Keynote", id: 409183694
+mas "macOS High Sierra", id: Install
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835

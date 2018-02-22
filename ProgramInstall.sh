@@ -33,38 +33,17 @@ sudo xcodebuild -license
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 
-# Install command line tools from brew
-echo "Installing command line apps"
-brew install mas
-brew install wget
-brew install tree
-brew install m-cli
-brew install archey
-brew install hub
-brew install trash
-brew install thefuck
-brew install dos2unix
-brew install boxes
+echo "Installing all binaries and applications from Brewfile"
+brew bundle # install all stuff from brew from Brewfile
+\
 
-# Enable cask-versions
-brew tap caskroom/versions
-
-# Install apps from brew cask
-
-# Core/Essential Apps
-echo "Installing Core/Essential Apps"
-brew cask install 1password # highest priority since I need my passwords
-brew cask install steam # high priority so I can begin downloading games
 echo "Beginning Installation of Steam Games in Background (do not close the new window)"
 chmod + x SteamScript.sh
 osascript -e 'tell app "Terminal" to do script "cd $PWD && ./SteamScript.sh"'
-# sh /Applications/Steam.app/Contents/MacOS/steam.sh >/dev/null 2>&1 &
-# echo "We just installed Steam so please log into Steam and begin downloading your games now, thanks."
-brew cask install karabiner-elements
+
+echo "Copying Karabiner Elements configuration..."
 cp karabiner.json ~/.config/karabiner/karabiner.json # copy Karabiner Elements setup json in
-brew cask install google-chrome
-brew cask install insync
-brew cask install bettertouchtool
+
 
 echo "Configuring BTT Window Management KB Shortcuts"
 cd BTTFiles
@@ -74,100 +53,13 @@ cp btt_data_store.v2-wal ~/Library/Application\ Support/BetterTouchTool/
 cd -
 echo "BTT Window Management KB Shortcuts Configured! See the repository wiki for details about what these keyboard shortcuts are and what they do!"
 
-brew cask install carbon-copy-cloner
-brew cask install spotify
-brew cask install microsoft-office
-brew cask install vmware-fusion
-brew cask install yakyak
-echo "Core/Essential Apps installed!"
-
 # Menubar Apps
-echo "Installing Menubar Apps"
-brew cask install dropbox
-brew cask install google-backup-and-sync
-brew cask install onedrive
-brew cask install nordvpn
-brew cask install semulov
-brew cask install spotify-notifications
-brew cask install yujitach-menumeters
+echo "Installing Brightness Menulet"
 chmod +x BrightnessMenulet.sh
 ./BrightnessMenulet.sh
-brew cask install rescuetime
-brew cask install itsycal
-brew cask install whatpulse
-brew cask install synergy
-brew cask install bartender
-echo "Menubar Apps Installed!"
 
-# Objective-See Security Apps
-echo "Installing Objective-See Security Apps"
-brew cask install blockblock
-brew cask install oversight
-brew cask install ransomwhere
-brew cask install whatsyoursign
-echo "Objective-See Security Apps Installed"
-
-# Code/Computer Science
-echo "Installing Code/Computer Science Apps"
-brew cask install gitkraken
-brew cask install java
-brew cask install java6 # temporary fix for IntelliJ IDEA menu issues on High Sierra
-brew cask install intellij-idea
-brew cask install eclipse-java
-brew cask install visual-studio-code
-brew cask install powershell
-echo "Code/Computer Science Apps Installed!"
-
-# Other Apps/Utilities
-echo "Installing Other Apps/Utilities"
-brew cask install adobe-acrobat-reader
-brew cask install android-file-transfer
-brew cask install appcleaner
-brew cask install the-unarchiver
-brew cask install keka
-brew cask install tuxera-ntfs
-brew cask install osxfuse
-brew cask install android-platform-tools
-brew cask install transmission
-brew cask install makemkv
-brew cask install handbrake
-brew cask install metaz
-brew cask install silverlight
-brew cask install ngrok
-brew cask install firefox
-brew cask install zoomus
-brew cask install iina
-brew cask install opera
-brew cask install etcher
-brew cask install vnc-viewer
-brew cask install epic-games
-brew cask install genymotion
-brew cask install skype
-echo "Other Apps/Utilities Installed!"
-
-# Install quick look generators
-echo "Installing Finder Quick Look Generators"
-brew cask install betterzipql 
-brew cask install qlcolorcode 
-brew cask install qlmarkdown 
-brew cask install qlstephen
-echo "Finder Quick Look Generators Installed!"
-
-# install brew-cask-upgrade
-brew tap buo/cask-upgrade
-brew cask install brew-cask-upgrade
-
-# install homebrew cask repair tools
-brew install vitorgalvao/tiny-scripts/cask-repair
-
-# Install apps from Mac App Store
-echo "Installing Mac App Store Apps"
-mas install 937984704 # Amphetamine
-mas install 409201541 # Pages
-mas install 409183694 # Keynote
-mas install 409203825 # Numbers
-mas install 408981434 # iMovie
-echo "Mac App Store Apps Installed!"
+echo "Installing BetterZipQL Quick Look Generator"
+cp -R BetterZipQL.qlgenerator ~/Library/QuickLook/BetterZipQL.qlgenerator
 
 # Cleanup
 echo "Cleaning up"
@@ -220,7 +112,7 @@ cp git-pullall /usr/local/bin/git-pullall
 echo "Installation of all programs complete!"
 echo "The following apps must be installed manually as they are not in brew cask:"
 echo "  Winclone"
-echo "  Synergy 2"
+echo "  Synergy"
 echo ""
 echo "The following apps must be activated:"
 echo "  Winclone (not installed automatically)"
