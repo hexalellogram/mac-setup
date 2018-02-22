@@ -120,7 +120,7 @@ Paste this into the macOS Terminal:
 - macOS System Settings ([Read echo statements here for details](https://github.com/hexalellogram/mac-setup/blob/master/SystemSettings.sh))
 - Create folder `~/Temp`
 - San Francisco [Pro Display](https://developer.apple.com/fonts/), [Pro Text](https://developer.apple.com/fonts/), and [Mono](https://simonfredsted.com/1438) Fonts Installed
-- Terminal configured to my custom settings (see [Pro Modified.terminal](https://github.com/hexalellogram/mac-setup/blob/master/ProModified.terminal))
+- Terminal configured to my custom settings (see [Pro Modified.terminal](https://github.com/hexalellogram/mac-setup/blob/master/ProModified.terminal)) - Pro Modified is essentially the standard Pro theme in macOS terminal, modified to use the San Francisco Mono font and a font size of 14.
 - Startup applications configured as per my preferences
 - `git pullall` - pulls all Git repositories in the folder `~/Git` except if the folder is named `EZMoney-Releases`. Program is copied to the directory `/usr/local/bin` so the command `git pullall` can be run from any location.
 
