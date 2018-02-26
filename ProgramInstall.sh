@@ -82,7 +82,6 @@ osascript -e 'tell application "System Events" to make login item at end with pr
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Mail.app", hidden:false, name:"Mail"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Messages.app", hidden:false, name:"Messages"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Spotify.app", hidden:false, name:"Spotify"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Steam.app", hidden:false, name:"Steam"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/BetterTouchTool.app", hidden:false, name:"BetterTouchTool"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Spotify Notifications.app", hidden:false, name:"Spotify Notifications"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/NordVPN.app", hidden:false, name:"NordVPN"}'
