@@ -43,7 +43,6 @@ Paste this into the macOS Terminal:
 - [Google Backup and Sync](https://drive.google.com) 
 - [OneDrive Standalone](https://support.office.com/en-us/article/New-OneDrive-sync-client-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0) (See the "separate download" link under the Downloads header)
 - [NordVPN](https://nordvpn.com)
-- [Semulov](https://github.com/kainjow/Semulov)
 - [Spotify Notifications](https://spotify-notifications.citruspi.io)
 - [MenuMeters (Yujitach Port)](https://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/)
 - [Brightness Menulet](https://github.com/superduper/BrightnessMenulet)
