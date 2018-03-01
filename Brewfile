@@ -24,7 +24,9 @@ brew "m-cli"
 brew "mas"
 brew "pkg-config"
 brew "protobuf"
+brew "python3"
 brew "pyqt"
+brew "ruby"
 brew "speedtest-cli"
 brew "thefuck"
 brew "trash"
@@ -56,6 +58,7 @@ cask "itsycal"
 cask "karabiner-elements"
 cask "keka"
 cask "makemkv"
+cask "malwarebytes"
 cask "metaz"
 cask "microsoft-office"
 cask "ngrok"
@@ -88,7 +91,6 @@ cask "caskroom/versions/java6"
 cask "caskroom/versions/java8"
 mas "Amphetamine", id: 937984704
 mas "iMovie", id: 408981434
-mas "Install Mac OS X Lion", id: 444303913
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
