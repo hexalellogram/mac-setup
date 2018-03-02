@@ -24,7 +24,7 @@ brew "m-cli"
 brew "mas"
 brew "pkg-config"
 brew "protobuf"
-brew "python3"
+brew "python", link: false
 brew "pyqt"
 brew "ruby"
 brew "speedtest-cli"
