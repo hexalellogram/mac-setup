@@ -91,11 +91,11 @@ osascript -e 'tell application "System Events" to make login item at end with pr
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/OneDrive.app", hidden:false, name:"OneDrive"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Backup and Sync from Google.app", hidden:false, name:"Backup and Sync from Google"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"~/Library/PreferencePanes/MenuMeters.prefPane/Contents/Resources/MenuMetersApp.app", hidden:false, name:"MenuMetersApp"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Semulov.app", hidden:false, name:"Semulov"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Carbon Copy Cloner.app/Contents/Library/LoginItems/CCC User Agent.app", hidden:false, name:"CCC User Agent"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Dropbox.app", hidden:false, name:"Dropbox"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Amphetamine.app", hidden:false, name:"Amphetamine"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/YakYak.app", hidden:false, name:"YakYak"}'
+# osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/YakYak.app", hidden:false, name:"YakYak"}'
+# Removed for now as we install a self-compiled version of YakYak with Disabled History support. When YakYak updates, we will reenable this line.
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Itsycal.app", hidden:false, name:"Itsycal"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/WhatPulse.app", hidden:false, name:"WhatPulse"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Brightness Menulet.app", hidden:false, name:"Brightness Menulet"}'
@@ -113,6 +113,9 @@ echo "Installation of all programs complete!"
 echo "The following apps must be installed manually as they are not in brew cask:"
 echo "  Winclone"
 echo "  Synergy"
+echo "  Caldigit Docking Station Utility"
+echo "  YakYak (self-compiled Disable History version)"
+echo "See README.md for download links"
 echo ""
 echo "The following apps must be activated:"
 echo "  Winclone (not installed automatically)"

@@ -10,7 +10,8 @@ Paste this into the macOS Terminal:
 ## Prerequisites
 - [Xcode.app or Xcode-beta.app](https://developer.apple.com/download/) installed
 
-## Binaries Installed via Homebrew
+## Binaries Installed via Homebrew 
+### (List may not be 100% up to date, for the up to date list, see `Brewfile`)
 - `mas`
 - `wget`
 - `tree`
@@ -36,7 +37,7 @@ Paste this into the macOS Terminal:
 - [Spotify](http://spotify.com)
 - [Microsoft Office](https://www.office.com)
 - [VMware Fusion](https://www.vmware.com/products/fusion.html)
-- [YakYak](https://github.com/yakyak/yakyak)
+- [YakYak](https://github.com/yakyak/yakyak) (Removed for now in favor of manually installed self-compiled version)
 
 ### Menubar Apps
 - [Dropbox](https://www.dropbox.com/?landing=dbv2)
@@ -128,6 +129,7 @@ Paste this into the macOS Terminal:
 - [Winclone](https://twocanoes.com/products/mac/winclone/)
 - [Synergy 1.0](https://symless.com/synergy)
 - [CalDigit Docking Station Utility](http://www.caldigit.com/support.asp)
+- YakYak self-compiled version with Disabled History support
 
 ## Other Stuff You Might Need to Know
 - [Code of Conduct](https://github.com/hexalellogram/mac-setup/blob/master/CODE_OF_CONDUCT.md)
