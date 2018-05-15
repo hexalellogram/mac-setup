@@ -98,7 +98,6 @@ osascript -e 'tell application "System Events" to make login item at end with pr
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Brightness Menulet.app", hidden:false, name:"Brightness Menulet"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/RescueTime.app", hidden:false, name:"RescueTime"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Apple Juice.app", hidden:false, name:"Apple Juice"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/CalDigit Docking Station Utility/CalDigit_Docking_Station_Utility.app", hidden:false, name:"CalDigit_Docking_Station_Utility"}'
 echo "Startup Applications Set!"
 
 # Reset Launchpad to display Apple applications first in alphabetical order, then 3rd party applications on the following pages
