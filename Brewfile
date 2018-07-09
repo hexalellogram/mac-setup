@@ -1,11 +1,11 @@
 tap "buo/cask-upgrade"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-eid"
+tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
-tap "homebrew/cask-eid"
-tap "homebrew/cask"
-tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-drivers"
 tap "vitorgalvao/tiny-scripts"
 brew "archey"
 brew "curl"
@@ -74,13 +74,7 @@ cask "homebrew/cask-versions/java6"
 cask "homebrew/cask-versions/java8"
 mas "Amphetamine", id: 937984704
 mas "iMovie", id: 408981434
-mas "Install Mac OS X Lion", id: 444303913
-mas "Install macOS 10.14 Beta", id: 0
-mas "Install macOS High Sierra", id: 0
-mas "Install OS X El Capitan", id: 1018109117
-mas "Install OS X Mavericks", id: 675248567
-mas "Install OS X Mountain Lion", id: 537386512
-mas "Install OS X Yosemite", id: 915041082
 mas "Keynote", id: 409183694
+mas "macOS High Sierra", id: Install
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
