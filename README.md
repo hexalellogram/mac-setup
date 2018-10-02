@@ -126,10 +126,7 @@ Paste this into the macOS Terminal:
 - `git pullall` - pulls all Git repositories in the folder `~/Git` except if the folder is named `EZMoney-Releases`. Program is copied to the directory `/usr/local/bin` so the command `git pullall` can be run from any location.
 
 ## Applications To Be Installed Manually
-- [Winclone](https://twocanoes.com/products/mac/winclone/)
 - [Synergy 1.0](https://symless.com/synergy)
-- [CalDigit Docking Station Utility](http://www.caldigit.com/support.asp)
-- YakYak self-compiled version with Disabled History support
 
 ## Other Stuff You Might Need to Know
 - [Code of Conduct](https://github.com/hexalellogram/mac-setup/blob/master/CODE_OF_CONDUCT.md)
