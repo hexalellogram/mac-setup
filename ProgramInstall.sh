@@ -98,7 +98,6 @@ osascript -e 'tell application "System Events" to make login item at end with pr
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/WhatPulse.app", hidden:false, name:"WhatPulse"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Brightness Menulet.app", hidden:false, name:"Brightness Menulet"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/RescueTime.app", hidden:false, name:"RescueTime"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Apple Juice.app", hidden:false, name:"Apple Juice"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Discord.app", hidden:false, name:"Discord"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Calendar.app", hidden:false, name:"Calendar"}'
 echo "Startup Applications Set!"
