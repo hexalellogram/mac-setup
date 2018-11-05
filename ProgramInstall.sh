@@ -85,21 +85,23 @@ osascript -e 'tell application "System Events" to make login item at end with pr
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Messages.app", hidden:false, name:"Messages"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/BetterTouchTool.app", hidden:false, name:"BetterTouchTool"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/NordVPN.app", hidden:false, name:"NordVPN"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/OverSight.app/Contents/Library/LoginItems/OverSight Helper.app", hidden:false, name:"OverSight Helper"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"~/Library/Application Support/Google/Android File Transfer/Android File Transfer Agent.app", hidden:false, name:"Android File Transfer Agent"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Insync.app", hidden:false, name:"Insync"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/OneDrive.app", hidden:false, name:"OneDrive"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Backup and Sync from Google.app", hidden:false, name:"Backup and Sync from Google"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"~/Library/PreferencePanes/MenuMeters.prefPane/Contents/Resources/MenuMetersApp.app", hidden:false, name:"MenuMetersApp"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Carbon Copy Cloner.app/Contents/Library/LoginItems/CCC User Agent.app", hidden:false, name:"CCC User Agent"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Dropbox.app", hidden:false, name:"Dropbox"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Amphetamine.app", hidden:false, name:"Amphetamine"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Itsycal.app", hidden:false, name:"Itsycal"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/WhatPulse.app", hidden:false, name:"WhatPulse"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Brightness Menulet.app", hidden:false, name:"Brightness Menulet"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/RescueTime.app", hidden:false, name:"RescueTime"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Discord.app", hidden:false, name:"Discord"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Calendar.app", hidden:false, name:"Calendar"}'
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Alfred 3.app", hidden:false, name:"Alfred 3"}'
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Google Chrome.app", hidden:false, name:"Google Chrome"}'
+
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Carbon Copy Cloner.app/Contents/Library/LoginItems/CCC User Agent.app", hidden:false, name:"CCC User Agent"}'
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/OverSight.app/Contents/Library/LoginItems/OverSight Helper.app", hidden:false, name:"OverSight Helper"}'
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"~/Library/Application Support/Google/Android File Transfer/Android File Transfer Agent.app", hidden:false, name:"Android File Transfer Agent"}'
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"~/Library/PreferencePanes/MenuMeters.prefPane/Contents/Resources/MenuMetersApp.app", hidden:false, name:"MenuMetersApp"}'
+
 echo "Startup Applications Set!"
 
 # Reset Launchpad to display Apple applications first in alphabetical order, then 3rd party applications on the following pages
