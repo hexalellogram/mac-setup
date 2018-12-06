@@ -36,7 +36,6 @@ cask "gitkraken"
 cask "google-backup-and-sync"
 cask "google-chrome"
 cask "handbrake"
-cask "iina"
 cask "insync"
 cask "intellij-idea"
 cask "java"
@@ -61,11 +60,13 @@ cask "rescuetime"
 cask "skype"
 cask "spotify"
 cask "steam"
+cask "telegram"
 cask "the-unarchiver"
 cask "transmission"
 cask "tuxera-ntfs"
 cask "visual-studio-code"
 cask "vivaldi"
+cask "vlc"
 cask "vmware-fusion"
 cask "vnc-viewer"
 cask "whatpulse"
@@ -74,6 +75,12 @@ cask "yujitach-menumeters"
 cask "zoomus"
 mas "Amphetamine", id: 937984704
 mas "iMovie", id: 408981434
+mas "Install Mac OS X Lion", id: 444303913
+mas "Install OS X El Capitan", id: 1018109117
+mas "Install OS X Mavericks", id: 675248567
+mas "Install OS X Mountain Lion", id: 537386512
+mas "Install OS X Yosemite", id: 915041082
 mas "Keynote", id: 409183694
+mas "Notability", id: 736189492
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
