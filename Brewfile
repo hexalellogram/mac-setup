@@ -76,9 +76,9 @@ cask "zoomus"
 mas "Amphetamine", id: 937984704
 mas "iMovie", id: 408981434
 mas "Install Mac OS X Lion", id: 444303913
+mas "Install macOS High Sierra", id: 0
+mas "Install macOS Mojave", id: 0
 mas "Install OS X El Capitan", id: 1018109117
-mas "Install OS X Mavericks", id: 675248567
-mas "Install OS X Mountain Lion", id: 537386512
 mas "Install OS X Yosemite", id: 915041082
 mas "Keynote", id: 409183694
 mas "Notability", id: 736189492
