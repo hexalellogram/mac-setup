@@ -13,6 +13,8 @@ brew "m-cli"
 brew "mas"
 brew "neofetch"
 brew "ninvaders"
+brew "python"
+brew "rclone"
 brew "speedtest-cli"
 brew "teleconsole"
 brew "trash"
@@ -23,6 +25,7 @@ cask "alfred"
 cask "android-file-transfer"
 cask "android-platform-tools"
 cask "appcleaner"
+cask "balenaetcher"
 cask "bartender"
 cask "bettertouchtool"
 cask "caldigit-thunderbolt-charging"
@@ -30,21 +33,19 @@ cask "carbon-copy-cloner"
 cask "discord"
 cask "dropbox"
 cask "epic-games"
-cask "etcher"
 cask "firefox"
 cask "gitkraken"
 cask "google-backup-and-sync"
-cask "google-chrome"
 cask "handbrake"
+cask "iina"
 cask "insync"
 cask "intellij-idea"
-cask "java"
 cask "java8"
 cask "karabiner-elements"
 cask "keka"
 cask "logitech-options"
 cask "makemkv"
-cask "metaz"
+cask "megasync"
 cask "microsoft-office"
 cask "ngrok"
 cask "nordvpn"
@@ -66,21 +67,22 @@ cask "transmission"
 cask "tuxera-ntfs"
 cask "visual-studio-code"
 cask "vivaldi"
-cask "vlc"
 cask "vmware-fusion"
 cask "vnc-viewer"
 cask "whatpulse"
+cask "whatsapp"
 cask "yakyak"
 cask "yujitach-menumeters"
 cask "zoomus"
-mas "Amphetamine", id: 937984704
-mas "iMovie", id: 408981434
-mas "Install Mac OS X Lion", id: 444303913
-mas "Install macOS High Sierra", id: 0
-mas "Install macOS Mojave", id: 0
-mas "Install OS X El Capitan", id: 1018109117
-mas "Install OS X Yosemite", id: 915041082
-mas "Keynote", id: 409183694
-mas "Notability", id: 736189492
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
+mas "", id: 915041082
+mas "", id: 537386512
+mas "", id: 409183694
+mas "", id: 408981434
+mas "", id: 1018109117
+mas "", id: 0
+mas "", id: 0
+mas "", id: 409201541
+mas "", id: 937984704
+mas "", id: 736189492
+mas "", id: 409203825
+mas "", id: 675248567
