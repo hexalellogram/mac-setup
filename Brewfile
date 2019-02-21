@@ -10,10 +10,8 @@ tap "vitorgalvao/tiny-scripts"
 brew "archey"
 brew "coreutils"
 brew "curl"
-brew "m-cli"
 brew "mas"
 brew "neofetch"
-brew "ninvaders"
 brew "python"
 brew "rclone"
 brew "speedtest-cli"
@@ -49,7 +47,6 @@ cask "logitech-options"
 cask "makemkv"
 cask "megasync"
 cask "microsoft-office"
-cask "musicbrainz-picard"
 cask "nordvpn"
 cask "onedrive"
 cask "opera"
@@ -73,11 +70,15 @@ cask "vmware-fusion"
 cask "vnc-viewer"
 cask "whatpulse"
 cask "whatsapp"
-cask "yakyak"
 cask "zoomus"
-mas "", id: 408981434
+mas "", id: 409203825
+mas "", id: 675248567
 mas "", id: 409183694
+mas "", id: 408981434
+mas "", id: 1018109117
+mas "", id: 444303913
 mas "", id: 409201541
 mas "", id: 736189492
 mas "", id: 937984704
-mas "", id: 409203825
+mas "", id: 915041082
+mas "", id: 537386512
