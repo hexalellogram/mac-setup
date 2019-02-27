@@ -10,6 +10,7 @@ tap "vitorgalvao/tiny-scripts"
 brew "archey"
 brew "coreutils"
 brew "curl"
+brew "gnupg"
 brew "mas"
 brew "neofetch"
 brew "python"
@@ -19,7 +20,6 @@ brew "teleconsole"
 brew "trash"
 brew "tree"
 brew "wget"
-cask "1password-beta"
 cask "alfred"
 cask "android-file-transfer"
 cask "android-platform-tools"
@@ -36,7 +36,6 @@ cask "firefox"
 cask "gitkraken"
 cask "google-backup-and-sync"
 cask "handbrake"
-cask "hex-fiend"
 cask "iina"
 cask "insync"
 cask "intellij-idea"
@@ -71,14 +70,9 @@ cask "vnc-viewer"
 cask "whatpulse"
 cask "whatsapp"
 cask "zoomus"
-mas "", id: 409203825
-mas "", id: 675248567
 mas "", id: 409183694
 mas "", id: 408981434
-mas "", id: 1018109117
-mas "", id: 444303913
 mas "", id: 409201541
 mas "", id: 736189492
 mas "", id: 937984704
-mas "", id: 915041082
-mas "", id: 537386512
+mas "", id: 409203825
