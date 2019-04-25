@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Translating brew cask purge to brew cask zap for formula $1..."
+
+/usr/local/bin/brew cask zap $1
+

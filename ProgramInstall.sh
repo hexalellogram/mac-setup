@@ -109,6 +109,10 @@ defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
 cp git-pullall /usr/local/bin/git-pullall
 chmod +x /usr/local/bin/git-pullall
 
+# brew cask purge
+cp brewcask-purge /usr/local/bin/brewcask-purge
+chmod +x /usr/local/bin/brewcask-purge
+
 # Finishing dialogs
 echo "Installation of all programs complete!"
 echo "The following apps must be installed manually as they are not in brew cask:"
