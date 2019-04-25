@@ -124,6 +124,7 @@ Paste this into the macOS Terminal:
 - Terminal configured to my custom settings (see [BasicModified.terminal](https://github.com/hexalellogram/mac-setup/blob/master/BasicModified.terminal)) - Pro Modified is essentially the standard Pro theme in macOS terminal, modified to use the San Francisco Mono font and a font size of 14.
 - Startup applications configured as per my preferences
 - `git pullall` - pulls all Git repositories in the folder `~/Git` except if the folder is named `EZMoney-Releases`. Program is copied to the directory `/usr/local/bin` so the command `git pullall` can be run from any location.
+- `brew cask purge` - alias for `brew cask zap` so you can use `brew cask purge chromium` to uninstall Chromium instead of having to use `brew cask zap chromium`. Brings behavior closer to `apt` and `apt-get` on Linux. Program is copied to the directory `/usr/local/bin` so the command `brew cask purge {formula}` can be run from any location.
 
 ## Applications To Be Installed Manually
 - [Synergy 1.0](https://symless.com/synergy)
