@@ -10,13 +10,15 @@ tap "vitorgalvao/tiny-scripts"
 brew "archey"
 brew "coreutils"
 brew "curl"
+brew "python"
 brew "gnupg"
 brew "mas"
 brew "neofetch"
-brew "python"
+brew "nmap"
 brew "rclone"
 brew "speedtest-cli"
 brew "teleconsole"
+brew "tldr"
 brew "trash"
 brew "tree"
 brew "wget"
@@ -35,10 +37,13 @@ cask "epic-games"
 cask "firefox"
 cask "gitkraken"
 cask "google-backup-and-sync"
+cask "google-chrome"
+cask "gpg-suite"
 cask "handbrake"
 cask "iina"
 cask "insync"
 cask "intellij-idea"
+cask "java"
 cask "java8"
 cask "karabiner-elements"
 cask "keka"
@@ -69,10 +74,15 @@ cask "vmware-fusion"
 cask "vnc-viewer"
 cask "whatpulse"
 cask "whatsapp"
+cask "wireshark"
 cask "zoomus"
-mas "", id: 409183694
-mas "", id: 408981434
-mas "", id: 409201541
-mas "", id: 736189492
-mas "", id: 937984704
-mas "", id: 409203825
+mas "Amphetamine", id: 937984704
+mas "iMovie", id: 408981434
+mas "Install OS X", id: 1018109117
+mas "Install OS X", id: 675248567
+mas "Install OS X", id: 915041082
+mas "Install OS X Mountain Lion", id: 537386512
+mas "Keynote", id: 409183694
+mas "Notability", id: 736189492
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
