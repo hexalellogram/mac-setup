@@ -40,6 +40,7 @@ cask "google-backup-and-sync"
 cask "google-chrome"
 cask "gpg-suite"
 cask "handbrake"
+cask "hex-fiend"
 cask "iina"
 cask "insync"
 cask "intellij-idea"
@@ -78,10 +79,6 @@ cask "wireshark"
 cask "zoomus"
 mas "Amphetamine", id: 937984704
 mas "iMovie", id: 408981434
-mas "Install OS X", id: 1018109117
-mas "Install OS X", id: 675248567
-mas "Install OS X", id: 915041082
-mas "Install OS X Mountain Lion", id: 537386512
 mas "Keynote", id: 409183694
 mas "Notability", id: 736189492
 mas "Numbers", id: 409203825
