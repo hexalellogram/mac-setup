@@ -91,13 +91,13 @@ osascript -e 'tell application "System Events" to make login item at end with pr
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Amphetamine.app", hidden:false, name:"Amphetamine"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/WhatPulse.app", hidden:false, name:"WhatPulse"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/RescueTime.app", hidden:false, name:"RescueTime"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Discord.app", hidden:false, name:"Discord"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Calendar.app", hidden:false, name:"Calendar"}'
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Telegram.app", hidden:false, name:"Telegram"}'
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/MEGASync.app", hidden:false, name:"MEGASync"}'
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Spotify.app", hidden:false, name:"Spotify"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Alfred 3.app", hidden:false, name:"Alfred 3"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Google Chrome.app", hidden:false, name:"Google Chrome"}'
-
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/OneDrive.app", hidden:false, name:"OneDrive"}'
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Hangouts.app", hidden:false, name:"Hangouts"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Carbon Copy Cloner.app/Contents/Library/LoginItems/CCC User Agent.app", hidden:false, name:"CCC User Agent"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/OverSight.app/Contents/Library/LoginItems/OverSight Helper.app", hidden:false, name:"OverSight Helper"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"~/Library/Application Support/Google/Android File Transfer/Android File Transfer Agent.app", hidden:false, name:"Android File Transfer Agent"}'
 
 echo "Startup Applications Set!"
