@@ -14,6 +14,7 @@ brew "jenv"
 brew "mas"
 brew "neofetch"
 brew "nmap"
+brew "node"
 brew "rclone"
 brew "speedtest-cli"
 brew "telnet"
@@ -58,6 +59,7 @@ cask "rescuetime"
 cask "skype"
 cask "spotify"
 cask "steam"
+cask "telegram"
 cask "transmission"
 cask "tunnelblick-beta"
 cask "tuxera-ntfs"
@@ -75,7 +77,7 @@ mas "Hex Fiend", id: 1342896380
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
+mas "Notability", id: 736189492
 mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
 mas "WhatsApp", id: 1147396723
-mas "Xcode", id: 497799835
