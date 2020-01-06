@@ -12,7 +12,7 @@ brew "curl"
 brew "diff-so-fancy"
 brew "git"
 brew "python"
-brew "gnupg", link: false
+brew "gnupg"
 brew "jenv"
 brew "mas"
 brew "neofetch"
@@ -38,13 +38,13 @@ cask "bettertouchtool"
 cask "caldigit-thunderbolt-charging"
 cask "caprine"
 cask "carbon-copy-cloner"
+cask "cyberduck"
 cask "discord"
 cask "dropbox"
+cask "ferdi-beta"
 cask "firefox"
-cask "flotato"
 cask "gitkraken"
 cask "google-backup-and-sync"
-cask "google-chrome"
 cask "gpg-suite"
 cask "handbrake"
 cask "iina"
@@ -54,13 +54,16 @@ cask "java11"
 cask "jdownloader"
 cask "karabiner-elements"
 cask "keka"
+cask "logitech-camera-settings"
 cask "logitech-options"
+cask "mactex"
 cask "makemkv"
 cask "megasync"
 cask "minecraft"
 cask "mongodb-compass"
 cask "monitorcontrol"
 cask "nordvpn"
+cask "notion"
 cask "postman"
 cask "rescuetime"
 cask "skype"
@@ -74,33 +77,19 @@ cask "visual-studio-code"
 cask "vmware-fusion"
 cask "vnc-server"
 cask "vnc-viewer"
-cask "wireshark"
 cask "zoomus"
 mas "AdGuard for Safari", id: 1440147259
-mas "AdGuard for Safari", id: 1440147259
-mas "Amphetamine", id: 937984704
 mas "Amphetamine", id: 937984704
 mas "Cascadea", id: 1432182561
-mas "Cascadea", id: 1432182561
 mas "Dark Reader for Safari", id: 1438243180
-mas "Dark Reader for Safari", id: 1438243180
-mas "Hex Fiend", id: 1342896380
+mas "Debit & Credit", id: 882637653
 mas "Hex Fiend", id: 1342896380
 mas "Microsoft Excel", id: 462058435
-mas "Microsoft Excel", id: 462058435
-mas "Microsoft OneNote", id: 784801555
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft PowerPoint", id: 462062816
-mas "Microsoft PowerPoint", id: 462062816
-mas "Microsoft Word", id: 462054704
 mas "Microsoft Word", id: 462054704
 mas "Notability", id: 736189492
-mas "Notability", id: 736189492
-mas "OneDrive", id: 823766827
 mas "OneDrive", id: 823766827
 mas "Telegram", id: 747648890
-mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
-mas "The Unarchiver", id: 425424353
-mas "WhatsApp", id: 1147396723
 mas "WhatsApp", id: 1147396723
