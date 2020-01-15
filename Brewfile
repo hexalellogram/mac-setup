@@ -50,6 +50,7 @@ cask "handbrake"
 cask "iina"
 cask "insync"
 cask "intellij-idea"
+cask "itsycal"
 cask "java11"
 cask "jdownloader"
 cask "karabiner-elements"
@@ -77,6 +78,7 @@ cask "visual-studio-code"
 cask "vmware-fusion"
 cask "vnc-server"
 cask "vnc-viewer"
+cask "xquartz"
 cask "zoomus"
 mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
@@ -93,3 +95,4 @@ mas "OneDrive", id: 823766827
 mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
 mas "WhatsApp", id: 1147396723
+mas "Xcode", id: 497799835
