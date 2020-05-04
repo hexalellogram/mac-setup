@@ -83,6 +83,7 @@ cask "vivaldi"
 cask "vmware-fusion"
 cask "vnc-server"
 cask "vnc-viewer"
+cask "windscribe"
 cask "xquartz"
 cask "zoomus"
 mas "AdGuard for Safari", id: 1440147259
@@ -91,10 +92,12 @@ mas "Cascadea", id: 1432182561
 mas "Dark Reader for Safari", id: 1438243180
 mas "Debit & Credit", id: 882637653
 mas "Hex Fiend", id: 1342896380
+mas "Messenger", id: 1480068668
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
+mas "NordVPN IKE", id: 1116599239
 mas "Notability", id: 736189492
 mas "OneDrive", id: 823766827
 mas "Telegram", id: 747648890
