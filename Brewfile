@@ -84,6 +84,7 @@ cask "vnc-server"
 cask "vnc-viewer"
 cask "windscribe"
 cask "xquartz"
+cask "yakyak"
 cask "zoomus"
 mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
