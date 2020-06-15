@@ -41,8 +41,8 @@ cask "discord"
 cask "docker"
 cask "dropbox"
 cask "etrecheckpro"
-cask "ferdi"
 cask "firefox"
+cask "gimp"
 cask "gitkraken"
 cask "gpg-suite"
 cask "handbrake"
@@ -76,7 +76,6 @@ cask "ticktick"
 cask "transmission"
 cask "tunnelblick-beta"
 cask "tuxera-ntfs"
-cask "visual"
 cask "visual-studio-code"
 cask "vivaldi"
 cask "vmware-fusion"
@@ -92,6 +91,7 @@ mas "Cascadea", id: 1432182561
 mas "Dark Reader for Safari", id: 1438243180
 mas "Debit & Credit", id: 882637653
 mas "Hex Fiend", id: 1342896380
+mas "Meeter", id: 1510445899
 mas "Messenger", id: 1480068668
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
