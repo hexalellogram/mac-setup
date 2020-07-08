@@ -16,6 +16,7 @@ brew "telnet"
 brew "trash"
 brew "tree"
 brew "wget"
+brew "zsh-completions"
 cask "1password"
 cask "alfred"
 cask "android-file-transfer"
@@ -65,7 +66,6 @@ cask "zoomus"
 mas "Amphetamine", id: 937984704
 mas "Debit & Credit", id: 882637653
 mas "Hex Fiend", id: 1342896380
-mas "Messenger", id: 1480068668
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft PowerPoint", id: 462062816
