@@ -54,11 +54,6 @@ cp btt_data_store.v2-wal ~/Library/Application\ Support/BetterTouchTool/
 cd -
 echo "BTT Window Management KB Shortcuts Configured! See the repository wiki for details about what these keyboard shortcuts are and what they do!"
 
-# Menubar Apps
-echo "Installing Brightness Menulet"
-chmod +x BrightnessMenulet.sh
-./BrightnessMenulet.sh
-
 echo "Installing BetterZipQL Quick Look Generator"
 cp -R BetterZipQL.qlgenerator ~/Library/QuickLook/BetterZipQL.qlgenerator
 qlmanage -r
