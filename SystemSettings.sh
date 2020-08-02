@@ -51,8 +51,8 @@ echo "Require password immediately after sleep or screen saver begins"
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 
-echo "Save screenshots to ~/Temp"
-defaults write com.apple.screencapture location -string "${HOME}/Temp"
+echo "Save screenshots to ~/Downloads"
+defaults write com.apple.screencapture location -string "${HOME}/Downloads"
 
 echo "Save screenshots in PNG format"
 defaults write com.apple.screencapture type -string "png"
