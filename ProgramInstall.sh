@@ -35,7 +35,6 @@ brew bundle # install all stuff from brew from Brewfile
 
 # Cleanup
 echo "Cleaning up"
-brew prune
 brew cleanup
 
 # Set Startup Applications
