@@ -30,7 +30,7 @@ echo "You have to accept the Xcode license. Keep pressing space until it prompts
 sudo xcodebuild -license
 
 # Install Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew update
 
 echo "Installing all binaries and applications from Brewfile"
