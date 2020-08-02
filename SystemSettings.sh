@@ -60,9 +60,9 @@ defaults write com.apple.screencapture type -string "png"
 echo "Disable shadow in screenshots"
 defaults write com.apple.screencapture disable-shadow -bool true
 
-echo "Set ~/Temp as the default location for new Finder windows"
+echo "Set ~/Downloads as the default location for new Finder windows"
 defaults write com.apple.finder NewWindowTarget -string "PfLo"
-defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Temp/"
+defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Downloads/"
 
 echo "Don't show icons for hard drives, servers, and removable media on the desktop"
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool false
