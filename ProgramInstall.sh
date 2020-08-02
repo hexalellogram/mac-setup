@@ -49,24 +49,10 @@ cp btt_data_store.v2-wal ~/Library/Application\ Support/BetterTouchTool/
 cd -
 echo "BTT Window Management KB Shortcuts Configured! See the repository wiki for details about what these keyboard shortcuts are and what they do!"
 
-echo "Installing BetterZipQL Quick Look Generator"
-cp -R BetterZipQL.qlgenerator ~/Library/QuickLook/BetterZipQL.qlgenerator
-qlmanage -r
-
 # Cleanup
 echo "Cleaning up"
 brew prune
 brew cleanup
-
-# Install Touch ID PAM Module
-read -n 1 -p "Do you want to enable the Touch ID PAM module for Sudo in Terminal? (Y/n): " pamAnswer && echo
-if echo $pamAnswer | grep -iq "^n"; then
-    echo "You have chosen to bypass the installation of the Touch ID PAM Modue."
-else
-    sudo cp /etc/pam.d/sudo /etc/pam.d/sudo.bak
-    echo "Old /etc/pam.d/sudo backed up to /etc/pam.d/sudo.bak"
-    sudo cp sudo /etc/pam.d/sudo
-fi
 
 # Set Startup Applications
 echo "Setting Startup Applications"
