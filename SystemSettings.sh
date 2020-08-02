@@ -149,12 +149,6 @@ defaults write org.m0k.transmission WarningDonate -bool false
 echo "Transmission: Hide the legal disclaimer"
 defaults write org.m0k.transmission WarningLegal -bool false
 
-echo "Transmission: IP block list"
-# Source: https://giuliomac.wordpress.com/2014/02/19/best-blocklist-for-transmission/
-defaults write org.m0k.transmission BlocklistNew -bool true
-defaults write org.m0k.transmission BlocklistURL -string "http://john.bitsurge.net/public/biglist.p2p.gz"
-defaults write org.m0k.transmission BlocklistAutoUpdate -bool true
-
 echo "Adding 3 spacers to the dock"
 defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="small-spacer-tile";}'
 defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="small-spacer-tile";}'
