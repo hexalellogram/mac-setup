@@ -157,16 +157,9 @@ defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-ty
 echo "Remove Dock Show and Hide Delay"
 defaults write com.apple.Dock autohide-delay -float 0
 
-echo "Installing San Francisco Pro Display, Pro Text, and Mono Fonts for User Use"
+echo "Installing San Francisco Mono Font for User Use"
 # SF Mono
 cp /Applications/Utilities/Terminal.app/Contents/Resources/Fonts/* ~/Library/Fonts/ 
-# SF Pro Display and Pro Text
-curl -LOk https://developer.apple.com/fonts/downloads/SFPro.zip
-unzip -a SFPro.zip
-rm SFPro.zip
-cd SFPro
-sudo installer -pkg San\ Francisco\ Pro.pkg -target /
-cd ..
 
 echo "Terminal Profile"
 open BasicModified.terminal
