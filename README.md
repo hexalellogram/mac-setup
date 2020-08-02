@@ -25,4 +25,3 @@ Paste this into the macOS Terminal:
 
 - [Code of Conduct](https://github.com/hexalellogram/mac-setup/blob/master/CODE_OF_CONDUCT.md)
 - This project is licensed under the [GNU GPL License](https://github.com/hexalellogram/mac-setup/blob/master/LICENSE)
-
