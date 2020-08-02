@@ -76,7 +76,6 @@ chmod +x /usr/local/bin/brewcask-purge
 echo "Installation of all programs complete!"
 echo "The following apps must be installed manually:"
 echo "  Google Chrome"
-echo "See README.md for download links"
 echo ""
 echo "The following apps must be activated:"
 echo "  Alfred 4"
