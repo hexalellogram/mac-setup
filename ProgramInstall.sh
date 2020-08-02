@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "welcome to Hexalellogram's Mac Setup Scripts."
+echo "Welcome to Hexalellogram's Mac Setup Scripts."
 read -n 1 -p "Do you want to proceed with running this script (see README.md for what it does), and is Xcode (or Xcode-beta) installed? (Y/n): " installAnswer && echo
 if echo $installAnswer | grep -iq "^n"; then
     exit 1
