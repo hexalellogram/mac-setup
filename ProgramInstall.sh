@@ -36,11 +36,6 @@ brew update
 echo "Installing all binaries and applications from Brewfile"
 brew bundle # install all stuff from brew from Brewfile
 
-
-echo "Beginning Installation of Steam Games in Background (do not close the new window)"
-chmod + x SteamScript.sh
-osascript -e 'tell app "Terminal" to do script "cd $PWD && ./SteamScript.sh"'
-
 echo "Copying Karabiner Elements configuration..."
 cp karabiner.json ~/.config/karabiner/karabiner.json # copy Karabiner Elements setup json in
 
