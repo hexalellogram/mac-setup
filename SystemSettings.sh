@@ -97,12 +97,6 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 echo "Show indicator lights for open applications in the Dock"
 defaults write com.apple.dock show-process-indicators -bool true
 
-echo "Disable Dashboard"
-defaults write com.apple.dashboard mcx-disabled -bool true
-
-echo "Don’t show Dashboard as a Space"
-defaults write com.apple.dock dashboard-in-overlay -bool true
-
 echo "Don’t automatically rearrange Spaces based on most recent use"
 defaults write com.apple.dock mru-spaces -bool false
 
