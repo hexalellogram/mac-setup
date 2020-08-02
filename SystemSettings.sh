@@ -76,9 +76,6 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 echo "Finder: show status bar"
 defaults write com.apple.finder ShowStatusBar -bool true
 
-echo "Finder: show path bar"
-defaults write com.apple.finder ShowPathbar -bool true
-
 echo "Display full path as Finder window title"
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
