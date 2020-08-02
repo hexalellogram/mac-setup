@@ -91,11 +91,13 @@ chmod +x /usr/local/bin/brewcask-purge
 
 # Finishing dialogs
 echo "Installation of all programs complete!"
-echo "The following apps must be installed manually as they are not in brew cask:"
-echo "  Synergy"
+echo "The following apps must be installed manually:"
+echo "  Google Chrome"
 echo "See README.md for download links"
 echo ""
 echo "The following apps must be activated:"
+echo "  Alfred 4"
+echo "  Bartender"
 echo "  Carbon Copy Cloner"
 echo "  Tuxera NTFS"
 echo "  VMware Fusion"
