@@ -36,19 +36,6 @@ brew update
 echo "Installing all binaries and applications from Brewfile"
 brew bundle # install all stuff from brew from Brewfile
 
-echo "Copying Karabiner Elements configuration..."
-cp karabiner.json ~/.config/karabiner/karabiner.json # copy Karabiner Elements setup json in
-
-
-echo "Configuring BTT Window Management KB Shortcuts"
-cd BTTFiles
-mkdir ~/Library/Application\ Support/BetterTouchTool
-cp btt_data_store.v2 ~/Library/Application\ Support/BetterTouchTool/
-cp btt_data_store.v2-shm ~/Library/Application\ Support/BetterTouchTool/
-cp btt_data_store.v2-wal ~/Library/Application\ Support/BetterTouchTool/
-cd -
-echo "BTT Window Management KB Shortcuts Configured! See the repository wiki for details about what these keyboard shortcuts are and what they do!"
-
 # Cleanup
 echo "Cleaning up"
 brew prune
