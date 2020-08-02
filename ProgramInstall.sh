@@ -8,9 +8,6 @@ else
     echo "You have chosen to proceed with running this script."
 fi
 
-echo "Making my Temp folder"
-mkdir ~/Temp
-
 echo "Gaining administrator privileges (these will be kept until the script is finished)"
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
