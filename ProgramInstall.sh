@@ -39,6 +39,7 @@ brew cleanup
 
 # Mackup
 echo "Syncing program settings with Mackup"
+cp .mackup.cfg ~/.mackup.cfg
 mackup restore
 
 # Set Startup Applications
