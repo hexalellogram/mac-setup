@@ -1,0 +1,132 @@
+# Mackup Documentation for My Applications
+
+Last updated 02 August 2020
+
+## Applications Covered by Mackup
+
+- AppCleaner
+- Bartender
+- BetterTouchTool
+- GIMP
+- Handbrake
+- IINA
+- IntelliJ IDEA
+- Itsycal
+- Karabiner Elements
+- Keka
+- Spotify
+- Transmission
+- Tunnelblick
+- Telegram
+- Xcode
+- `git`
+- `zsh`
+- `ssh` (does not back up keys)
+
+## Syncing Applications Not Covered by Mackup
+
+- 1Password (sync handled by 1Password.com)
+- Alfred (sync handled by Google Drive)
+- Carbon Copy Cloner (`.ccctask` file exported to Google Drive)
+- Firefox (sync handled by Firefox Account)
+- GPG Suite (keys must be exported/imported manually)
+- Logitech Options (sync handled by Logitech account)
+- Microsoft Edge (sync handled by Microsoft account)
+- Steam (Game Sync handled internally by Steam Cloud)
+- Visual Studio Code (sync handled by Settings Sync extension)
+
+## Applications that do not need sync (and are not covered by Mackup)
+
+If noted, settings must be enabled manually
+
+- Android File Transfer
+- Caprine
+- Discord
+- Dropbox
+- Insync
+    - Disable "Show pop-up notifications"
+- Jdownloader
+- Logitech Camera Settings
+- Macs Fan Control
+    - Autostart minimized with system
+    - Precise display of temperature when possible
+    - Display connected drive temperatures for SMARt and NVMe
+- MacTeX (no GUI)
+- MakeMKV
+    - Register with free beta key
+- MEGAsync
+    - Video
+        - Default destination to `~/Downloads`
+- Minecraft
+- MonitorControl
+    - General
+        - Start at login
+        - Show slider for contrast
+    - Display
+        - Change Brightness/Volume for all screens
+- Notion
+    - Enable dark mode
+- RescueTime
+- Skype
+- TeX Live Utility
+- Tuxera NTFS
+- VMware Fusion
+    - General
+        - When closing a virtual machine, power off
+        - Never show in menu bar
+- XQuartz
+- YACReader
+- YakYak
+    - Dark color scheme
+- Zoom
+    - General
+        - Show meeting duration
+        - Disable menu bar icon
+    - Video
+        - Enable HD video
+        - Turn off video when joining a meeting
+        - Display up to 49 participants in gallery view
+    - Audio
+        - Join audio by computer when joining a meeting
+    - Share Screen
+        - Disable enter full screen when a participant shares screen
+    - Chat
+        - Show Code Snippet Button
+        - Include Link Preview
+- Amphetamine
+    - General
+        - Launch on Login
+        - Start session on launch
+    - Appearance
+        - Change icon to coffee cup
+- Debit & Credit
+    - View > Transaction Layout
+        - Always display description, category, payee
+    - View > Display uncleared account balance
+    - View > Color code income and expense
+    - View > Always display decimal digits
+- Hex Fiend
+- Microsoft Office
+- NordVPN IKE
+    - Auto launch when computer starts
+    - Show in menu bar only
+- Notability
+- OneDrive
+- The Unarchiver
+- TickTick
+    - General
+        - Choose task to be counted in Dock: Today + Overdue
+    - Smart Lists
+        - All: Hidden
+        - Today: Show
+        - Tomorrow: Hidden
+        - Next 7 Days: Show
+        - Assigned to Me: Hidden
+        - Calendar: Hidden
+        - Completed: Show
+        - Trash: Show
+        - Summary: Hidden
+        - Disable Tags
+        - Disable Custom Smart Lists
+    - Task Default
+        - Completion Sound: None
