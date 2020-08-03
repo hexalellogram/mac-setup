@@ -37,6 +37,10 @@ brew bundle # install all stuff from brew from Brewfile
 echo "Cleaning up"
 brew cleanup
 
+# Mackup
+echo "Syncing program settings with Mackup"
+mackup restore
+
 # Set Startup Applications
 echo "Setting Startup Applications"
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Reminders.app", hidden:false, name:"Reminders"}'
