@@ -12,6 +12,10 @@ Paste this into the macOS Terminal:
 
 - [Xcode.app or Xcode-beta.app](https://developer.apple.com/download/) installed
 
+## Mackup - Application Settings
+
+- See [mackup.md](mackup.md) for details.
+
 ## Other Stuff Configured
 
 - macOS System Settings ([Read echo statements here for details](https://github.com/hexalellogram/mac-setup/blob/master/SystemSettings.sh))
