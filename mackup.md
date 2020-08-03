@@ -21,6 +21,7 @@ Last updated 02 August 2020
 - Xcode
 - `git`
 - `zsh`
+    - Oh My Zsh
 - `ssh` (does not back up keys)
 
 ## Syncing Applications Not Covered by Mackup
@@ -107,6 +108,10 @@ If noted, settings must be enabled manually
     - View > Always display decimal digits
 - Hex Fiend
 - Microsoft Office
+    - Show File Extensions
+    - Show Ribbon Group Titles
+- Microsoft OneNote
+    - Show Ribbon Group Titles
 - NordVPN IKE
     - Auto launch when computer starts
     - Show in menu bar only
@@ -130,3 +135,14 @@ If noted, settings must be enabled manually
         - Disable Custom Smart Lists
     - Task Default
         - Completion Sound: None
+- Apple Mail
+    - Reorder accounts
+    - Add signatures to accounts and set default signatures
+    - Viewing > List preview: 3 lines
+- Apple Calendar
+    - Advanced > Show week numbers
+- Messages
+    - Enable read receipts
+    - Enable Messages in iCloud
+- Home
+    - Disable notifications on this Mac for Garage Door opener
