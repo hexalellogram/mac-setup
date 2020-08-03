@@ -60,12 +60,9 @@ ZSH_THEME="af-magic-BT"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  zsh-autosuggestions
-  zsh-completions
   brew
   osx
   wd
-  zsh-syntax-highlighting
   sudo 
 )
 
@@ -142,3 +139,6 @@ if type brew &>/dev/null; then
   autoload -Uz compinit
   compinit
 fi
+
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
