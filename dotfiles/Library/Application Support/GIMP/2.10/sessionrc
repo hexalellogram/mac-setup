@@ -96,7 +96,7 @@
     (position 1265 254))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
-    (position 552 170)
+    (position 552 148)
     (size 888 686))
 
 (hide-docks no)
