@@ -60,7 +60,6 @@ osascript -e 'tell application "System Events" to make login item at end with pr
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Alfred 4.app", hidden:false, name:"Alfred 4"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/OneDrive.app", hidden:false, name:"OneDrive"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Macs Fan Control.app", hidden:false, name:"Macs Fan Control"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/YakYak.app", hidden:false, name:"YakYak"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Caprine.app", hidden:false, name:"Caprine"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Itsycal.app", hidden:false, name:"Itsycal"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Discord.app", hidden:false, name:"Discord"}'
