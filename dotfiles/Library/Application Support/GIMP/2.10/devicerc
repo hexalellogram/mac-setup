@@ -3,16 +3,18 @@
 (GimpDeviceInfo "Core Pointer"
     (icon-name "gimp-cursor")
     (name "Core Pointer")
-    (tool-options "GimpMoveOptions"
-        (tool "gimp-move-tool"))
-    (use-fg-bg no)
+    (tool-options "GimpTextOptions"
+        (tool "gimp-text-tool")
+        (palette "Color History")
+        (font "Arial"))
+    (use-fg-bg yes)
     (use-brush no)
     (use-dynamics no)
     (use-mypaint-brush no)
     (use-gradient no)
     (use-pattern no)
-    (use-palette no)
-    (use-font no)
+    (use-palette yes)
+    (use-font yes)
     (mode screen)
     (axes 2 x y)
     (keys 0)
