@@ -159,7 +159,7 @@ defaults write com.apple.Dock autohide-delay -float 0
 
 echo "Installing San Francisco Mono Font for User Use"
 # SF Mono
-cp /Applications/Utilities/Terminal.app/Contents/Resources/Fonts/* ~/Library/Fonts/ 
+cp /System/Applications/Utilities/Terminal.app/Contents/Resources/Fonts/* ~/Library/Fonts/ 
 
 echo "Terminal Profile"
 open BasicModified.terminal
