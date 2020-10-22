@@ -102,7 +102,8 @@ export PATH="/usr/local/sbin:$PATH"
 # this takes way too long
 
 alias reset-launchpad='defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock'
-export PATH="/Users/bryce/Git/EZMoney-Releases/Boing:$PATH"
+export PATH="/Users/bryce/Git/Boing:$PATH"
+export PATH="/Users/bryce/Library/Python/3.8/bin:$PATH"
 
 export EDITOR=code
 
@@ -142,3 +143,5 @@ fi
 
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# added by travis gem
+[ ! -s /Users/bryce/.travis/travis.sh ] || source /Users/bryce/.travis/travis.sh
