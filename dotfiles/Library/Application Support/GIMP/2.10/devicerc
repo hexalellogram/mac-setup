@@ -3,12 +3,19 @@
 (GimpDeviceInfo "Core Pointer"
     (icon-name "gimp-cursor")
     (name "Core Pointer")
-    (tool-options "GimpMoveOptions"
-        (tool "gimp-move-tool"))
-    (use-fg-bg no)
+    (tool-options "GimpMybrushOptions"
+        (tool "gimp-mypaint-brush-tool")
+        (foreground (color-rgb 0.10879999999999992 0.38857142857142857 0.059980824544582936))
+        (opacity 0.95999999999999996)
+        (mybrush "knife")
+        (brush-size 51)
+        (brush-hardness 0.5)
+        (radius 2.9000000953674316)
+        (hardness 0.80000001192092896))
+    (use-fg-bg yes)
     (use-brush no)
     (use-dynamics no)
-    (use-mypaint-brush no)
+    (use-mypaint-brush yes)
     (use-gradient no)
     (use-pattern no)
     (use-palette no)

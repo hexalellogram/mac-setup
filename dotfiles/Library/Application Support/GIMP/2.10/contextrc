@@ -1,12 +1,12 @@
 # GIMP user context
 
-(tool "gimp-move-tool")
-(paint-info "gimp-paintbrush")
-(foreground (color-rgb 1 1 1))
-(background (color-rgb 0 0 0))
+(tool "gimp-mypaint-brush-tool")
+(paint-info "gimp-mybrush")
+(foreground (color-rgb 0.10879999999999992 0.38857142857142857 0.059980824544582936))
+(opacity 0.95999999999999996)
 (brush "2. Hardness 100")
 (dynamics "Dynamics Off")
-(mybrush "100% Opaque")
+(mybrush "knife")
 (pattern "Pine")
 (gradient "FG to BG (RGB)")
 (palette "Color History")
