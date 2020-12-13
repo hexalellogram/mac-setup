@@ -48,6 +48,7 @@ cask "carbon-copy-cloner"
 cask "discord"
 cask "docker"
 cask "dropbox"
+cask "eloston-chromium"
 cask "firefox"
 cask "gimp"
 cask "gpg-suite"
@@ -88,7 +89,6 @@ cask "yacreader"
 cask "zoom"
 mas "Amphetamine", id: 937984704
 mas "Debit & Credit", id: 882637653
-mas "Debit & Credit", id: 882637653
 mas "Hex Fiend", id: 1342896380
 mas "Messenger", id: 1480068668
 mas "Microsoft Excel", id: 462058435
@@ -97,10 +97,7 @@ mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
 mas "Notability", id: 736189492
 mas "OneDrive", id: 823766827
-mas "OneDrive", id: 823766827
 mas "Telegram", id: 747648890
-mas "Telegram", id: 747648890
-mas "The Unarchiver", id: 425424353
 mas "The Unarchiver", id: 425424353
 mas "TickTick", id: 966085870
 mas "Xcode", id: 497799835
