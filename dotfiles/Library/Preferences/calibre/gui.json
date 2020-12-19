@@ -1,0 +1,58 @@
+{
+  "book_details_splitter_horizontal_state": [
+    true, 
+    200
+  ], 
+  "book_list_pin_splitter_state": {
+    "__class__": "bytearray", 
+    "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEoA/////wEAAAABAA=="
+  }, 
+  "convert_single_dialog_geom": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAD///YaAAAAIv///9MAAAVc///2GgAAADj////TAAAFXAAAAAEAAAAACgD///YaAAAAOP///9MAAAVc"
+  }, 
+  "cover_browser_splitter_vertical_state": [
+    false, 
+    300
+  ], 
+  "cover_grid_color": [
+    80, 
+    80, 
+    80
+  ], 
+  "cover_grid_texture": null, 
+  "default_author_link": null, 
+  "grid view visible": false, 
+  "library_usage_stats": {
+    "/Users/bryce/Calibre Library": 6
+  }, 
+  "plugin config dialog:File type:DeDRM": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAD///YbAAAB9f//9xMAAANd///2GwAAAgv///cTAAADXQAAAAEAAAAACgD///YbAAACC///9xMAAANd"
+  }, 
+  "preferences dialog geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAD///kmAAABMP///McAAAQb///5JgAAAUz///zHAAAEGwAAAAEAAAAACgD///kmAAABTP///McAAAQb"
+  }, 
+  "quick_start_guide_added": true, 
+  "quickview visible": false, 
+  "replace_scene_breaks_history": [
+    "", 
+    "<hr />", 
+    "∗ ∗ ∗", 
+    "• • •", 
+    "♦ ♦ ♦", 
+    "† †", 
+    "‡ ‡ ‡", 
+    "∞ ∞ ∞", 
+    "¤ ¤ ¤"
+  ], 
+  "search bar visible": true, 
+  "show_emblems": false, 
+  "tag browser search box visible": false, 
+  "tag_browser_splitter_horizontal_state": [
+    true, 
+    200
+  ], 
+  "ui_style": "calibre"
+}

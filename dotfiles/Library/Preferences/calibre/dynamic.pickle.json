@@ -1,0 +1,23 @@
+{
+  "add a plugin dialog": "/Users/bryce/Downloads/DeDRM_tools_6.8.0", 
+  "add books dialog dir": "/Users/bryce/Documents/Digital Editions", 
+  "notified-version-updates": {
+    "__class__": "set", 
+    "__value__": [
+      "5.3"
+    ]
+  }, 
+  "save to disk dialog": "/Users/bryce/Downloads", 
+  "sort_history": [
+    [
+      "timestamp", 
+      false
+    ], 
+    [
+      "timestamp", 
+      false
+    ]
+  ], 
+  "welcome_wizard_device": "default", 
+  "welcome_wizard_was_run": true
+}

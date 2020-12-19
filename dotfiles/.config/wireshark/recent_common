@@ -1,0 +1,187 @@
+# Common recent settings file for Wireshark 3.4.0.
+#
+# This file is regenerated each time Wireshark is quit
+# and when changing configuration profile.
+# So be careful, if you want to make manual changes here.
+
+######## Recent capture files (latest last), cannot be altered through command line ########
+
+recent.capture_file: /Users/bryce/Downloads/PortScan.pcap
+recent.capture_file: /Users/bryce/Downloads/group_chat.pcapng
+recent.capture_file: /Users/bryce/Downloads/Cracking.pcap
+recent.capture_file: /Users/bryce/Downloads/Web Scanner.pcapng
+recent.capture_file: /Users/bryce/Downloads/Space.pcapng
+recent.capture_file: /Users/bryce/Downloads/beats.pcapng
+recent.capture_file: /Users/bryce/Downloads/usb.pcapng
+
+######## Recent capture filters (latest last), cannot be altered through command line ########
+
+
+######## Recent display filters (latest last), cannot be altered through command line ########
+
+recent.display_filter: usbms
+recent.display_filter: btavctp
+recent.display_filter: btavdtp
+recent.display_filter: btavrcp
+recent.display_filter: http
+recent.display_filter: tcp.stream eq 268
+recent.display_filter: ip.src==10.0.3.7
+recent.display_filter: ip.src==10.0.3.6
+recent.display_filter: mailslot
+recent.display_filter: udp.stream eq 0
+
+# Main window geometry.
+# Decimal numbers.
+gui.geometry_main_x: 0
+gui.geometry_main_y: 23
+gui.geometry_main_width: 2560
+gui.geometry_main_height: 1395
+
+# Main window maximized.
+# TRUE or FALSE (case-insensitive).
+gui.geometry_main_maximized: TRUE
+
+# Leftalign Action Buttons.
+# TRUE or FALSE (case-insensitive).
+gui.geometry_leftalign_actions: FALSE
+
+# Statusbar left pane size.
+# Decimal number.
+gui.geometry_status_pane: 250
+
+# Statusbar middle pane size.
+# Decimal number.
+gui.geometry_status_pane_right: 250
+
+# Last used Configuration Profile.
+gui.last_used_profile: Default
+
+# WLAN statistics upper pane size.
+# Decimal number.
+gui.geometry_status_wlan_stats_pane: 200
+
+# Warn if running with elevated permissions (e.g. as root).
+# TRUE or FALSE (case-insensitive).
+privs.warn_if_elevated: TRUE
+
+# Warn if Wireshark is unable to capture.
+# TRUE or FALSE (case-insensitive).
+sys.warn_if_no_capture: TRUE
+
+# Find packet search in.
+# One of: PACKET_LIST, PACKET_DETAILS, PACKET_BYTES
+gui.search_in: PACKET_DETAILS
+
+# Find packet character set.
+# One of: NARROW_AND_WIDE, NARROW, WIDE
+gui.search_char_set: NARROW_AND_WIDE
+
+# Find packet case sensitive search.
+# TRUE or FALSE (case-insensitive).
+gui.search_case_sensitive: TRUE
+
+# Find packet search type.
+# One of: DISPLAY_FILTER, HEX_VALUE, STRING, REGEX
+gui.search_type: STRING
+
+# Geometry and maximized state of FollowStreamDialog window.
+# Decimal integers.
+gui.geom.FollowStreamDialog.x: -2143
+gui.geom.FollowStreamDialog.y: 23
+gui.geom.FollowStreamDialog.width: 1706
+gui.geom.FollowStreamDialog.height: 1395
+# TRUE or FALSE (case-insensitive).
+gui.geom.FollowStreamDialog.maximized: FALSE
+
+# Geometry and maximized state of PreferencesDialog window.
+# Decimal integers.
+gui.geom.PreferencesDialog.x: 940
+gui.geom.PreferencesDialog.y: 483
+gui.geom.PreferencesDialog.width: 741
+gui.geom.PreferencesDialog.height: 475
+# TRUE or FALSE (case-insensitive).
+gui.geom.PreferencesDialog.maximized: FALSE
+
+# Geometry and maximized state of ShowPacketBytesDialog window.
+# Decimal integers.
+gui.geom.ShowPacketBytesDialog.x: 417
+gui.geom.ShowPacketBytesDialog.y: 179
+gui.geom.ShowPacketBytesDialog.width: 1706
+gui.geom.ShowPacketBytesDialog.height: 1046
+# TRUE or FALSE (case-insensitive).
+gui.geom.ShowPacketBytesDialog.maximized: FALSE
+
+# Geometry and maximized state of WEP and WPA Decryption Keys window.
+# Decimal integers.
+gui.geom.WEP and WPA Decryption Keys.x: 1017
+gui.geom.WEP and WPA Decryption Keys.y: 501
+gui.geom.WEP and WPA Decryption Keys.width: 566
+gui.geom.WEP and WPA Decryption Keys.height: 403
+# TRUE or FALSE (case-insensitive).
+gui.geom.WEP and WPA Decryption Keys.maximized: FALSE
+
+# Geometry and maximized state of MulticastStatisticsDialog window.
+# Decimal integers.
+gui.geom.MulticastStatisticsDialog.x: 246
+gui.geom.MulticastStatisticsDialog.y: 179
+gui.geom.MulticastStatisticsDialog.width: 2048
+gui.geom.MulticastStatisticsDialog.height: 1046
+# TRUE or FALSE (case-insensitive).
+gui.geom.MulticastStatisticsDialog.maximized: FALSE
+
+# Geometry and maximized state of WlanStatisticsDialog window.
+# Decimal integers.
+gui.geom.WlanStatisticsDialog.x: 246
+gui.geom.WlanStatisticsDialog.y: 179
+gui.geom.WlanStatisticsDialog.width: 2048
+gui.geom.WlanStatisticsDialog.height: 1046
+# TRUE or FALSE (case-insensitive).
+gui.geom.WlanStatisticsDialog.maximized: FALSE
+
+# Geometry and maximized state of BluetoothDevicesDialog window.
+# Decimal integers.
+gui.geom.BluetoothDevicesDialog.x: 246
+gui.geom.BluetoothDevicesDialog.y: 236
+gui.geom.BluetoothDevicesDialog.width: 2048
+gui.geom.BluetoothDevicesDialog.height: 930
+# TRUE or FALSE (case-insensitive).
+gui.geom.BluetoothDevicesDialog.maximized: FALSE
+
+# Geometry and maximized state of PacketDialog window.
+# Decimal integers.
+gui.geom.PacketDialog.x: -2314
+gui.geom.PacketDialog.y: 122
+gui.geom.PacketDialog.width: 2048
+gui.geom.PacketDialog.height: 1116
+# TRUE or FALSE (case-insensitive).
+gui.geom.PacketDialog.maximized: FALSE
+
+# Geometry and maximized state of BluetoothHciSummaryDialog window.
+# Decimal integers.
+gui.geom.BluetoothHciSummaryDialog.x: 246
+gui.geom.BluetoothHciSummaryDialog.y: 236
+gui.geom.BluetoothHciSummaryDialog.width: 2048
+gui.geom.BluetoothHciSummaryDialog.height: 930
+# TRUE or FALSE (case-insensitive).
+gui.geom.BluetoothHciSummaryDialog.maximized: FALSE
+
+# Geometry and maximized state of BluetoothAttServerAttributesDialog window.
+# Decimal integers.
+gui.geom.BluetoothAttServerAttributesDialog.x: 246
+gui.geom.BluetoothAttServerAttributesDialog.y: 236
+gui.geom.BluetoothAttServerAttributesDialog.width: 2048
+gui.geom.BluetoothAttServerAttributesDialog.height: 930
+# TRUE or FALSE (case-insensitive).
+gui.geom.BluetoothAttServerAttributesDialog.maximized: FALSE
+
+# Custom colors.
+# List of custom colors selected in Qt color picker.
+gui.custom_colors: 
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff"
