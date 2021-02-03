@@ -62,7 +62,6 @@ osascript -e 'tell application "System Events" to make login item at end with pr
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Macs Fan Control.app", hidden:false, name:"Macs Fan Control"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Messenger.app", hidden:false, name:"Messenger"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Discord.app", hidden:false, name:"Discord"}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Tunnelblick.app", hidden:false, name:"Tunnelblick"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Slack.app", hidden:false, name:"Slack"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Carbon Copy Cloner.app/Contents/Library/LoginItems/CCC User Agent.app", hidden:false, name:"CCC User Agent"}'
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"~/Library/Application Support/Google/Android File Transfer/Android File Transfer Agent.app", hidden:false, name:"Android File Transfer Agent"}'
