@@ -10,7 +10,6 @@ tap "homebrew/services"
 brew "aircrack-ng"
 brew "automake"
 brew "xz"
-brew "python@3.8"
 brew "binwalk"
 brew "coreutils"
 brew "curl"
@@ -19,9 +18,11 @@ brew "docker-completion"
 brew "docker-compose-completion"
 brew "docker-machine"
 brew "foremost"
+brew "gdb"
 brew "git"
 brew "hashcat"
 brew "htop"
+brew "python@3.8"
 brew "imagemagick"
 brew "ispell"
 brew "mackup"
@@ -98,6 +99,7 @@ cask "xquartz"
 cask "yacreader"
 cask "zoom"
 mas "Amphetamine", id: 937984704
+mas "Apple Configurator 2", id: 1037126344
 mas "Debit & Credit", id: 882637653
 mas "Hex Fiend", id: 1342896380
 mas "Messenger", id: 1480068668
