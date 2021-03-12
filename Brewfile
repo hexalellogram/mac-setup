@@ -107,7 +107,7 @@ mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
-mas "Notability", id: 736189492
+mas "Notability", id: 360593530
 mas "OneDrive", id: 823766827
 mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
