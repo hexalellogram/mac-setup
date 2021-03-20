@@ -24,7 +24,7 @@
   "default_author_link": null, 
   "grid view visible": false, 
   "library_usage_stats": {
-    "/Users/bryce/Calibre Library": 6
+    "/Users/bryce/Calibre Library": 7
   }, 
   "plugin config dialog:File type:DeDRM": {
     "__class__": "bytearray", 
@@ -32,7 +32,7 @@
   }, 
   "preferences dialog geometry": {
     "__class__": "bytearray", 
-    "__value__": "AdnQywADAAD///kmAAABMP///McAAAQb///5JgAAAUz///zHAAAEGwAAAAEAAAAACgD///kmAAABTP///McAAAQb"
+    "__value__": "AdnQywADAAAAAAHlAAAAmQAABYYAAAOEAAAB5QAAALUAAAWGAAADhAAAAAAAAAAAB4AAAAHlAAAAtQAABYYAAAOE"
   }, 
   "quick_start_guide_added": true, 
   "quickview visible": false, 

@@ -1,4 +1,4 @@
-# Common recent settings file for Wireshark 3.4.0.
+# Common recent settings file for Wireshark 3.4.4.
 #
 # This file is regenerated each time Wireshark is quit
 # and when changing configuration profile.
@@ -6,36 +6,39 @@
 
 ######## Recent capture files (latest last), cannot be altered through command line ########
 
-recent.capture_file: /Users/bryce/Downloads/PortScan.pcap
-recent.capture_file: /Users/bryce/Downloads/group_chat.pcapng
-recent.capture_file: /Users/bryce/Downloads/Cracking.pcap
-recent.capture_file: /Users/bryce/Downloads/Web Scanner.pcapng
-recent.capture_file: /Users/bryce/Downloads/Space.pcapng
-recent.capture_file: /Users/bryce/Downloads/beats.pcapng
-recent.capture_file: /Users/bryce/Downloads/usb.pcapng
+recent.capture_file: /Users/bryce/Downloads/ncl/torrent.pcap
+recent.capture_file: /Users/bryce/Downloads/ncl/Stolen Flights.pcapng
+recent.capture_file: /Users/bryce/Downloads/ws_ctf/inter2_1001.pcap
+recent.capture_file: /Users/bryce/Downloads/ws_ctf/inter2_1002.pcap
+recent.capture_file: /Users/bryce/Downloads/ws_ctf/wwb001-http.pcapng
+recent.capture_file: /Users/bryce/Downloads/ws_ctf/wwb001-pacing.pcapng
+recent.capture_file: /Users/bryce/Downloads/ws_ctf/wwb001-dnswarmup.pcapng
+recent.capture_file: /Users/bryce/Downloads/ws_ctf/wwb001-thenews.pcapng
+recent.capture_file: /Users/bryce/Downloads/ws_ctf/wwb001-movietime.pcapng
+recent.capture_file: /Users/bryce/Downloads/ncl/torrent challenge/torrent.pcap
 
 ######## Recent capture filters (latest last), cannot be altered through command line ########
 
 
 ######## Recent display filters (latest last), cannot be altered through command line ########
 
-recent.display_filter: usbms
-recent.display_filter: btavctp
-recent.display_filter: btavdtp
-recent.display_filter: btavrcp
-recent.display_filter: http
-recent.display_filter: tcp.stream eq 268
-recent.display_filter: ip.src==10.0.3.7
-recent.display_filter: ip.src==10.0.3.6
-recent.display_filter: mailslot
-recent.display_filter: udp.stream eq 0
+recent.display_filter: tcp.stream eq 0
+recent.display_filter: tcp.stream eq 0 && bittorrent && bittorrent.piece.data
+recent.display_filter: tcp.stream eq 0 && bittorrent
+recent.display_filter: tcp.stream
+recent.display_filter: http.request.method && http.host contains "mid.rkdms.com"
+recent.display_filter: http.request.method == "GET" && http.host matches "\.org$"
+recent.display_filter: http.request.method == "GET"
+recent.display_filter: http.request.uri matches "cbsi-player\.js"
+recent.display_filter: frame contains "metacritic"
+recent.display_filter: dns matches metacritic.com
 
 # Main window geometry.
 # Decimal numbers.
 gui.geometry_main_x: 0
-gui.geometry_main_y: 23
-gui.geometry_main_width: 2560
-gui.geometry_main_height: 1395
+gui.geometry_main_y: 25
+gui.geometry_main_width: 1920
+gui.geometry_main_height: 1027
 
 # Main window maximized.
 # TRUE or FALSE (case-insensitive).
@@ -84,23 +87,32 @@ gui.search_case_sensitive: TRUE
 # One of: DISPLAY_FILTER, HEX_VALUE, STRING, REGEX
 gui.search_type: STRING
 
-# Geometry and maximized state of FollowStreamDialog window.
+# Geometry and maximized state of MulticastStatisticsDialog window.
 # Decimal integers.
-gui.geom.FollowStreamDialog.x: -2143
-gui.geom.FollowStreamDialog.y: 23
-gui.geom.FollowStreamDialog.width: 1706
-gui.geom.FollowStreamDialog.height: 1395
+gui.geom.MulticastStatisticsDialog.x: 246
+gui.geom.MulticastStatisticsDialog.y: 179
+gui.geom.MulticastStatisticsDialog.width: 2048
+gui.geom.MulticastStatisticsDialog.height: 1046
 # TRUE or FALSE (case-insensitive).
-gui.geom.FollowStreamDialog.maximized: FALSE
+gui.geom.MulticastStatisticsDialog.maximized: FALSE
 
-# Geometry and maximized state of PreferencesDialog window.
+# Geometry and maximized state of EnabledProtocolsDialog window.
 # Decimal integers.
-gui.geom.PreferencesDialog.x: 940
-gui.geom.PreferencesDialog.y: 483
-gui.geom.PreferencesDialog.width: 741
-gui.geom.PreferencesDialog.height: 475
+gui.geom.EnabledProtocolsDialog.x: 777
+gui.geom.EnabledProtocolsDialog.y: 409
+gui.geom.EnabledProtocolsDialog.width: 987
+gui.geom.EnabledProtocolsDialog.height: 595
 # TRUE or FALSE (case-insensitive).
-gui.geom.PreferencesDialog.maximized: FALSE
+gui.geom.EnabledProtocolsDialog.maximized: FALSE
+
+# Geometry and maximized state of ExpertInfoDialog window.
+# Decimal integers.
+gui.geom.ExpertInfoDialog.x: 373
+gui.geom.ExpertInfoDialog.y: 25
+gui.geom.ExpertInfoDialog.width: 1152
+gui.geom.ExpertInfoDialog.height: 1027
+# TRUE or FALSE (case-insensitive).
+gui.geom.ExpertInfoDialog.maximized: FALSE
 
 # Geometry and maximized state of ShowPacketBytesDialog window.
 # Decimal integers.
@@ -111,6 +123,15 @@ gui.geom.ShowPacketBytesDialog.height: 1046
 # TRUE or FALSE (case-insensitive).
 gui.geom.ShowPacketBytesDialog.maximized: FALSE
 
+# Geometry and maximized state of FollowStreamDialog window.
+# Decimal integers.
+gui.geom.FollowStreamDialog.x: 311
+gui.geom.FollowStreamDialog.y: 25
+gui.geom.FollowStreamDialog.width: 1280
+gui.geom.FollowStreamDialog.height: 1027
+# TRUE or FALSE (case-insensitive).
+gui.geom.FollowStreamDialog.maximized: FALSE
+
 # Geometry and maximized state of WEP and WPA Decryption Keys window.
 # Decimal integers.
 gui.geom.WEP and WPA Decryption Keys.x: 1017
@@ -119,15 +140,6 @@ gui.geom.WEP and WPA Decryption Keys.width: 566
 gui.geom.WEP and WPA Decryption Keys.height: 403
 # TRUE or FALSE (case-insensitive).
 gui.geom.WEP and WPA Decryption Keys.maximized: FALSE
-
-# Geometry and maximized state of MulticastStatisticsDialog window.
-# Decimal integers.
-gui.geom.MulticastStatisticsDialog.x: 246
-gui.geom.MulticastStatisticsDialog.y: 179
-gui.geom.MulticastStatisticsDialog.width: 2048
-gui.geom.MulticastStatisticsDialog.height: 1046
-# TRUE or FALSE (case-insensitive).
-gui.geom.MulticastStatisticsDialog.maximized: FALSE
 
 # Geometry and maximized state of WlanStatisticsDialog window.
 # Decimal integers.
@@ -138,6 +150,60 @@ gui.geom.WlanStatisticsDialog.height: 1046
 # TRUE or FALSE (case-insensitive).
 gui.geom.WlanStatisticsDialog.maximized: FALSE
 
+# Geometry and maximized state of PacketDialog window.
+# Decimal integers.
+gui.geom.PacketDialog.x: -1306
+gui.geom.PacketDialog.y: 70
+gui.geom.PacketDialog.width: 1152
+gui.geom.PacketDialog.height: 677
+# TRUE or FALSE (case-insensitive).
+gui.geom.PacketDialog.maximized: FALSE
+
+# Geometry and maximized state of http_req window.
+# Decimal integers.
+gui.geom.http_req.x: -1690
+gui.geom.http_req.y: 449
+gui.geom.http_req.width: 800
+gui.geom.http_req.height: 459
+# TRUE or FALSE (case-insensitive).
+gui.geom.http_req.maximized: FALSE
+
+# Geometry and maximized state of dns window.
+# Decimal integers.
+gui.geom.dns.x: -1690
+gui.geom.dns.y: 449
+gui.geom.dns.width: 800
+gui.geom.dns.height: 459
+# TRUE or FALSE (case-insensitive).
+gui.geom.dns.maximized: FALSE
+
+# Geometry and maximized state of PreferencesDialog window.
+# Decimal integers.
+gui.geom.PreferencesDialog.x: 940
+gui.geom.PreferencesDialog.y: 483
+gui.geom.PreferencesDialog.width: 741
+gui.geom.PreferencesDialog.height: 483
+# TRUE or FALSE (case-insensitive).
+gui.geom.PreferencesDialog.maximized: FALSE
+
+# Geometry and maximized state of http_seq window.
+# Decimal integers.
+gui.geom.http_seq.x: -1690
+gui.geom.http_seq.y: 449
+gui.geom.http_seq.width: 800
+gui.geom.http_seq.height: 459
+# TRUE or FALSE (case-insensitive).
+gui.geom.http_seq.maximized: FALSE
+
+# Geometry and maximized state of DecodeAsDialog window.
+# Decimal integers.
+gui.geom.DecodeAsDialog.x: 895
+gui.geom.DecodeAsDialog.y: 476
+gui.geom.DecodeAsDialog.width: 750
+gui.geom.DecodeAsDialog.height: 460
+# TRUE or FALSE (case-insensitive).
+gui.geom.DecodeAsDialog.maximized: FALSE
+
 # Geometry and maximized state of BluetoothDevicesDialog window.
 # Decimal integers.
 gui.geom.BluetoothDevicesDialog.x: 246
@@ -147,14 +213,32 @@ gui.geom.BluetoothDevicesDialog.height: 930
 # TRUE or FALSE (case-insensitive).
 gui.geom.BluetoothDevicesDialog.maximized: FALSE
 
-# Geometry and maximized state of PacketDialog window.
+# Geometry and maximized state of http_srv window.
 # Decimal integers.
-gui.geom.PacketDialog.x: -2314
-gui.geom.PacketDialog.y: 122
-gui.geom.PacketDialog.width: 2048
-gui.geom.PacketDialog.height: 1116
+gui.geom.http_srv.x: -1690
+gui.geom.http_srv.y: 449
+gui.geom.http_srv.width: 800
+gui.geom.http_srv.height: 459
 # TRUE or FALSE (case-insensitive).
-gui.geom.PacketDialog.maximized: FALSE
+gui.geom.http_srv.maximized: FALSE
+
+# Geometry and maximized state of http2 window.
+# Decimal integers.
+gui.geom.http2.x: -1690
+gui.geom.http2.y: 449
+gui.geom.http2.width: 800
+gui.geom.http2.height: 459
+# TRUE or FALSE (case-insensitive).
+gui.geom.http2.maximized: FALSE
+
+# Geometry and maximized state of ProtocolHierarchyDialog window.
+# Decimal integers.
+gui.geom.ProtocolHierarchyDialog.x: -2226
+gui.geom.ProtocolHierarchyDialog.y: 113
+gui.geom.ProtocolHierarchyDialog.width: 2048
+gui.geom.ProtocolHierarchyDialog.height: 1109
+# TRUE or FALSE (case-insensitive).
+gui.geom.ProtocolHierarchyDialog.maximized: FALSE
 
 # Geometry and maximized state of BluetoothHciSummaryDialog window.
 # Decimal integers.
@@ -173,6 +257,24 @@ gui.geom.BluetoothAttServerAttributesDialog.width: 2048
 gui.geom.BluetoothAttServerAttributesDialog.height: 930
 # TRUE or FALSE (case-insensitive).
 gui.geom.BluetoothAttServerAttributesDialog.maximized: FALSE
+
+# Geometry and maximized state of TrafficTableDialog window.
+# Decimal integers.
+gui.geom.TrafficTableDialog.x: 0
+gui.geom.TrafficTableDialog.y: 141
+gui.geom.TrafficTableDialog.width: 1920
+gui.geom.TrafficTableDialog.height: 770
+# TRUE or FALSE (case-insensitive).
+gui.geom.TrafficTableDialog.maximized: FALSE
+
+# Geometry and maximized state of dests window.
+# Decimal integers.
+gui.geom.dests.x: -1690
+gui.geom.dests.y: 449
+gui.geom.dests.width: 800
+gui.geom.dests.height: 459
+# TRUE or FALSE (case-insensitive).
+gui.geom.dests.maximized: FALSE
 
 # Custom colors.
 # List of custom colors selected in Qt color picker.
