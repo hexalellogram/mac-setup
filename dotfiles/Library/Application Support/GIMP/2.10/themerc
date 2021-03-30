@@ -4,6 +4,13 @@
 # It is NOT supposed to be edited manually. Edit your personal
 # gtkrc file instead (/Users/bryce/Library/Application Support/GIMP/2.10/gtkrc).
 
+style "gimp-spin-scale-style"
+{
+  GimpSpinScale::compact = 1
+}
+
+class "GimpSpinScale" style "gimp-spin-scale-style"
+
 include "/Applications/GIMP-2.10.app/Contents/Resources/share/gimp/2.0/themes/Dark/gtkrc"
 include "/Applications/GIMP-2.10.app/Contents/Resources/etc/gimp/2.0/gtkrc"
 

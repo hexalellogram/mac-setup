@@ -437,7 +437,7 @@ gui.qt.font_name: SF Mono,13,-1,5,50,0,0,0,0,0
 
 # Remote capture filter
 # A string
-#extcap.ciscodump.remotefilter: deny tcp host fe80::62:bfcf:dfe2:c2c4 any eq 0, deny tcp any eq 0 host fe80::62:bfcf:dfe2:c2c4, deny tcp host 172.16.0.1 any eq 0, deny tcp any eq 0 host 172.16.0.1, deny tcp host fe80::9da6:2f4d:af8b:7f47 any eq 0, deny tcp any eq 0 host fe80::9da6:2f4d:af8b:7f47, deny tcp host fe80::e0d0:13e2:ede8:314d any eq 0, deny tcp any eq 0 host fe80::e0d0:13e2:ede8:314d, deny tcp host fe80::b9d7:76a9:96e4:28b1 any eq 0, deny tcp any eq 0 host fe80::b9d7:76a9:96e4:28b1, deny tcp host fe80::c9ad:7316:88:9515 any eq 0, deny tcp any eq 0 host fe80::c9ad:7316:88:9515, deny tcp host fe80::e6f8:985e:734f:eb33 any eq 0, deny tcp any eq 0 host fe80::e6f8:985e:734f:eb33, deny tcp host fe80::cbed:8a52:a450:aada any eq 0, deny tcp any eq 0 host fe80::cbed:8a52:a450:aada, deny tcp host fe80::917c:f61e:b2e9:4989 any eq 0, deny tcp any eq 0 host fe80::917c:f61e:b2e9:4989, deny tcp host fe80::a69a:b67d:8525:eedf any eq 0, deny tcp any eq 0 host fe80::a69a:b67d:8525:eedf, deny tcp host fe80::6c7f:4fff:fe34:8d60 any eq 0, deny tcp any eq 0 host fe80::6c7f:4fff:fe34:8d60, deny tcp host fe80::6c7f:4fff:fe34:8d60 any eq 0, deny tcp any eq 0 host fe80::6c7f:4fff:fe34:8d60, deny tcp host 10.0.1.173 any eq 0, deny tcp any eq 0 host 10.0.1.173, deny tcp host fe80::8b5:58f1:edd2:1a20 any eq 0, deny tcp any eq 0 host fe80::8b5:58f1:edd2:1a20, deny tcp host fe80::aede:48ff:fe00:1122 any eq 0, deny tcp any eq 0 host fe80::aede:48ff:fe00:1122, deny tcp host fe80::1 any eq 0, deny tcp any eq 0 host fe80::1, permit ip any any
+#extcap.ciscodump.remotefilter: deny tcp host fe80::cfd:b763:146d:4dc any eq 0, deny tcp any eq 0 host fe80::cfd:b763:146d:4dc, deny tcp host 172.16.0.1 any eq 0, deny tcp any eq 0 host 172.16.0.1, deny tcp host fe80::b994:c372:70bf:bbb5 any eq 0, deny tcp any eq 0 host fe80::b994:c372:70bf:bbb5, deny tcp host fe80::4320:128:5a4c:1e1d any eq 0, deny tcp any eq 0 host fe80::4320:128:5a4c:1e1d, deny tcp host fe80::3cff:83ff:fee7:e148 any eq 0, deny tcp any eq 0 host fe80::3cff:83ff:fee7:e148, deny tcp host fe80::3cff:83ff:fee7:e148 any eq 0, deny tcp any eq 0 host fe80::3cff:83ff:fee7:e148, deny tcp host 100.114.182.192 any eq 0, deny tcp any eq 0 host 100.114.182.192, deny tcp host fe80::140c:acdf:b761:8d70 any eq 0, deny tcp any eq 0 host fe80::140c:acdf:b761:8d70, deny tcp host fe80::aede:48ff:fe00:1122 any eq 0, deny tcp any eq 0 host fe80::aede:48ff:fe00:1122, deny tcp host fe80::1 any eq 0, deny tcp any eq 0 host fe80::1, permit ip any any
 
 # Packets to capture
 # A string
@@ -505,7 +505,7 @@ gui.qt.font_name: SF Mono,13,-1,5,50,0,0,0,0,0
 
 # Remote capture filter
 # A string
-#extcap.sshdump.remotefilter: not ((host fe80::62:bfcf:dfe2:c2c4 or host 172.16.0.1 or host fe80::9da6:2f4d:af8b:7f47 or host fe80::e0d0:13e2:ede8:314d or host fe80::b9d7:76a9:96e4:28b1 or host fe80::c9ad:7316:88:9515 or host fe80::e6f8:985e:734f:eb33 or host fe80::cbed:8a52:a450:aada or host fe80::917c:f61e:b2e9:4989 or host fe80::a69a:b67d:8525:eedf or host fe80::6c7f:4fff:fe34:8d60 or host fe80::6c7f:4fff:fe34:8d60 or host 10.0.1.173 or host fe80::8b5:58f1:edd2:1a20 or host fe80::aede:48ff:fe00:1122 or host fe80::1) and port 22)
+#extcap.sshdump.remotefilter: not ((host fe80::cfd:b763:146d:4dc or host 172.16.0.1 or host fe80::b994:c372:70bf:bbb5 or host fe80::4320:128:5a4c:1e1d or host fe80::3cff:83ff:fee7:e148 or host fe80::3cff:83ff:fee7:e148 or host 100.114.182.192 or host fe80::140c:acdf:b761:8d70 or host fe80::aede:48ff:fe00:1122 or host fe80::1) and port 22)
 
 # Packets to capture
 # A string
@@ -2567,7 +2567,7 @@ gui.qt.font_name: SF Mono,13,-1,5,50,0,0,0,0,0
 
 # Whether the IPv4 summary line should be shown in the protocol tree
 # TRUE or FALSE (case-insensitive)
-#ip.summary_in_tree: TRUE
+ip.summary_in_tree: FALSE
 
 # Whether to validate the IPv4 checksum
 # TRUE or FALSE (case-insensitive)

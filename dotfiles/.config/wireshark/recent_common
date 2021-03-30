@@ -6,39 +6,39 @@
 
 ######## Recent capture files (latest last), cannot be altered through command line ########
 
-recent.capture_file: /Users/bryce/Downloads/ncl/torrent.pcap
-recent.capture_file: /Users/bryce/Downloads/ncl/Stolen Flights.pcapng
-recent.capture_file: /Users/bryce/Downloads/ws_ctf/inter2_1001.pcap
-recent.capture_file: /Users/bryce/Downloads/ws_ctf/inter2_1002.pcap
 recent.capture_file: /Users/bryce/Downloads/ws_ctf/wwb001-http.pcapng
 recent.capture_file: /Users/bryce/Downloads/ws_ctf/wwb001-pacing.pcapng
 recent.capture_file: /Users/bryce/Downloads/ws_ctf/wwb001-dnswarmup.pcapng
 recent.capture_file: /Users/bryce/Downloads/ws_ctf/wwb001-thenews.pcapng
 recent.capture_file: /Users/bryce/Downloads/ws_ctf/wwb001-movietime.pcapng
 recent.capture_file: /Users/bryce/Downloads/ncl/torrent challenge/torrent.pcap
+recent.capture_file: /Users/bryce/Downloads/individual_ncl/checksum/checksum.pcap
+recent.capture_file: /Users/bryce/Downloads/individual_ncl/WPAD/wpad.pcapng
+recent.capture_file: /Users/bryce/Downloads/individual_ncl/Cracking_network/Cracking.pcap
+recent.capture_file: /Users/bryce/Downloads/individual_ncl/encrypted/encrypted.pcapng
 
 ######## Recent capture filters (latest last), cannot be altered through command line ########
 
 
 ######## Recent display filters (latest last), cannot be altered through command line ########
 
-recent.display_filter: tcp.stream eq 0
-recent.display_filter: tcp.stream eq 0 && bittorrent && bittorrent.piece.data
-recent.display_filter: tcp.stream eq 0 && bittorrent
-recent.display_filter: tcp.stream
-recent.display_filter: http.request.method && http.host contains "mid.rkdms.com"
-recent.display_filter: http.request.method == "GET" && http.host matches "\.org$"
-recent.display_filter: http.request.method == "GET"
-recent.display_filter: http.request.uri matches "cbsi-player\.js"
-recent.display_filter: frame contains "metacritic"
-recent.display_filter: dns matches metacritic.com
+recent.display_filter: ip.src == 10.0.0.103 && ip.dst == 57.51.45.118
+recent.display_filter: ip.src == 10.0.0.103
+recent.display_filter: ip
+recent.display_filter: wlan.fc.type_subtype == 0xc
+recent.display_filter: dhcp
+recent.display_filter: wlan.addr==00:51:ed:ed:51:e0
+recent.display_filter: wlan.fc.type_subtype == 12
+recent.display_filter: wlan.fc.type_subtype == 40
+recent.display_filter: wlan.fc.type_subtype == 3
+recent.display_filter: wlan.fc.type_subtype == 2
 
 # Main window geometry.
 # Decimal numbers.
-gui.geometry_main_x: 0
+gui.geometry_main_x: -2560
 gui.geometry_main_y: 25
-gui.geometry_main_width: 1920
-gui.geometry_main_height: 1027
+gui.geometry_main_width: 2560
+gui.geometry_main_height: 1387
 
 # Main window maximized.
 # TRUE or FALSE (case-insensitive).
@@ -143,10 +143,10 @@ gui.geom.WEP and WPA Decryption Keys.maximized: FALSE
 
 # Geometry and maximized state of WlanStatisticsDialog window.
 # Decimal integers.
-gui.geom.WlanStatisticsDialog.x: 246
-gui.geom.WlanStatisticsDialog.y: 179
-gui.geom.WlanStatisticsDialog.width: 2048
-gui.geom.WlanStatisticsDialog.height: 1046
+gui.geom.WlanStatisticsDialog.x: -1615
+gui.geom.WlanStatisticsDialog.y: 185
+gui.geom.WlanStatisticsDialog.width: 1536
+gui.geom.WlanStatisticsDialog.height: 770
 # TRUE or FALSE (case-insensitive).
 gui.geom.WlanStatisticsDialog.maximized: FALSE
 
@@ -233,10 +233,10 @@ gui.geom.http2.maximized: FALSE
 
 # Geometry and maximized state of ProtocolHierarchyDialog window.
 # Decimal integers.
-gui.geom.ProtocolHierarchyDialog.x: -2226
-gui.geom.ProtocolHierarchyDialog.y: 113
-gui.geom.ProtocolHierarchyDialog.width: 2048
-gui.geom.ProtocolHierarchyDialog.height: 1109
+gui.geom.ProtocolHierarchyDialog.x: 182
+gui.geom.ProtocolHierarchyDialog.y: 112
+gui.geom.ProtocolHierarchyDialog.width: 1536
+gui.geom.ProtocolHierarchyDialog.height: 821
 # TRUE or FALSE (case-insensitive).
 gui.geom.ProtocolHierarchyDialog.maximized: FALSE
 
@@ -260,9 +260,9 @@ gui.geom.BluetoothAttServerAttributesDialog.maximized: FALSE
 
 # Geometry and maximized state of TrafficTableDialog window.
 # Decimal integers.
-gui.geom.TrafficTableDialog.x: 0
-gui.geom.TrafficTableDialog.y: 141
-gui.geom.TrafficTableDialog.width: 1920
+gui.geom.TrafficTableDialog.x: -1553
+gui.geom.TrafficTableDialog.y: 196
+gui.geom.TrafficTableDialog.width: 1121
 gui.geom.TrafficTableDialog.height: 770
 # TRUE or FALSE (case-insensitive).
 gui.geom.TrafficTableDialog.maximized: FALSE

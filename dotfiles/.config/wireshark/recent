@@ -71,11 +71,11 @@ gui.packet_diagram_field_values: FALSE
 
 # Main window upper (or leftmost) pane size.
 # Decimal number.
-gui.geometry_main_upper_pane: 309
+gui.geometry_main_upper_pane: 895
 
 # Main window middle pane size.
 # Decimal number.
-gui.geometry_main_lower_pane: 599
+gui.geometry_main_lower_pane: 367
 
 # Packet list column pixel widths.
 # Each pair of strings consists of a column format and its pixel width.
@@ -83,7 +83,7 @@ column.width:
         %m, 156,
         %t, -1,
         %s, 346,
-        %d, -1,
+        %d, 468,
         %p, 224,
         %L, 132,
         %i, 1982
@@ -98,13 +98,16 @@ gui.conversation_tabs:
 # Open endpoint dialog tabs.
 # List of endpoint names, e.g. "TCP", "IPv6".
 gui.endpoint_tabs: 
+	"IPv4", "Ethernet",
+	"IEEE 802.11", "IPv6",
+	"TCP", "UDP"
 
 # For RLC stats, whether to use RLC PDUs found inside MAC frames.
 # TRUE or FALSE (case-insensitive).
 gui.rlc_pdus_from_mac_frames: FALSE
 
 # Last directory navigated to in File Open dialog.
-gui.fileopen_remembered_dir: /Users/bryce/Downloads/ncl/torrent challenge/
+gui.fileopen_remembered_dir: /Users/bryce/Downloads/individual_ncl/encrypted/
 
 # Additional Toolbars shown
 # List of additional toolbars to show.
