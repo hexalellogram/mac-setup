@@ -13,6 +13,7 @@
     (factory-entry "gimp-single-image-window")
     (position 0 25)
     (size 1920 1027)
+    (monitor 2)
     (open-on-exit)
     (aux-info
         (left-docks-width "188")
@@ -97,7 +98,8 @@
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
     (position 552 25)
-    (size 888 686))
+    (size 888 686)
+    (monitor 1))
 
 (hide-docks no)
 (single-window-mode yes)

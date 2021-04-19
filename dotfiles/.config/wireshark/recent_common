@@ -6,36 +6,36 @@
 
 ######## Recent capture files (latest last), cannot be altered through command line ########
 
-recent.capture_file: /Users/bryce/Downloads/ws_ctf/wwb001-http.pcapng
-recent.capture_file: /Users/bryce/Downloads/ws_ctf/wwb001-pacing.pcapng
-recent.capture_file: /Users/bryce/Downloads/ws_ctf/wwb001-dnswarmup.pcapng
-recent.capture_file: /Users/bryce/Downloads/ws_ctf/wwb001-thenews.pcapng
 recent.capture_file: /Users/bryce/Downloads/ws_ctf/wwb001-movietime.pcapng
 recent.capture_file: /Users/bryce/Downloads/ncl/torrent challenge/torrent.pcap
 recent.capture_file: /Users/bryce/Downloads/individual_ncl/checksum/checksum.pcap
 recent.capture_file: /Users/bryce/Downloads/individual_ncl/WPAD/wpad.pcapng
 recent.capture_file: /Users/bryce/Downloads/individual_ncl/Cracking_network/Cracking.pcap
 recent.capture_file: /Users/bryce/Downloads/individual_ncl/encrypted/encrypted.pcapng
+recent.capture_file: /Users/bryce/Downloads/team_ncl/network_netbios/Netbios.pcapng
+recent.capture_file: /Users/bryce/Downloads/team_ncl/network_cracking/Cracking.pcap
+recent.capture_file: /Users/bryce/Downloads/team_ncl/network_stolen_ip/stolen_ip.pcap
+recent.capture_file: /Users/bryce/Downloads/team_ncl/network_usb_keyboard/usb.pcapng
 
 ######## Recent capture filters (latest last), cannot be altered through command line ########
 
 
 ######## Recent display filters (latest last), cannot be altered through command line ########
 
-recent.display_filter: ip.src == 10.0.0.103 && ip.dst == 57.51.45.118
-recent.display_filter: ip.src == 10.0.0.103
-recent.display_filter: ip
-recent.display_filter: wlan.fc.type_subtype == 0xc
-recent.display_filter: dhcp
-recent.display_filter: wlan.addr==00:51:ed:ed:51:e0
-recent.display_filter: wlan.fc.type_subtype == 12
-recent.display_filter: wlan.fc.type_subtype == 40
-recent.display_filter: wlan.fc.type_subtype == 3
-recent.display_filter: wlan.fc.type_subtype == 2
+recent.display_filter: usb.urb_id == 0xffff9d82538e7a80
+recent.display_filter: eth.src==52:54:00:1D:6E:42 || eth.src==52:54:00:1D:6E:42 || eth.src==52:54:00:81:1C:AD
+recent.display_filter: eth.src==52:54:00:1D:6E:42 || eth.src==52:54:00:81:1C:AD
+recent.display_filter: eth.src==52:54:00:81:1C:AD
+recent.display_filter: eth.src==52:54:00:1D:6E:42
+recent.display_filter: usb.src == "1.15.1"
+recent.display_filter: usb.src == "1.15."
+recent.display_filter: usb.src == "1.15.*"
+recent.display_filter: usb.src == "1.15.0"
+recent.display_filter: nbns
 
 # Main window geometry.
 # Decimal numbers.
-gui.geometry_main_x: -2560
+gui.geometry_main_x: 0
 gui.geometry_main_y: 25
 gui.geometry_main_width: 2560
 gui.geometry_main_height: 1387
@@ -150,6 +150,15 @@ gui.geom.WlanStatisticsDialog.height: 770
 # TRUE or FALSE (case-insensitive).
 gui.geom.WlanStatisticsDialog.maximized: FALSE
 
+# Geometry and maximized state of CaptureFilePropertiesDialog window.
+# Decimal integers.
+gui.geom.CaptureFilePropertiesDialog.x: -2143
+gui.geom.CaptureFilePropertiesDialog.y: 25
+gui.geom.CaptureFilePropertiesDialog.width: 1706
+gui.geom.CaptureFilePropertiesDialog.height: 1387
+# TRUE or FALSE (case-insensitive).
+gui.geom.CaptureFilePropertiesDialog.maximized: FALSE
+
 # Geometry and maximized state of PacketDialog window.
 # Decimal integers.
 gui.geom.PacketDialog.x: -1306
@@ -240,6 +249,24 @@ gui.geom.ProtocolHierarchyDialog.height: 821
 # TRUE or FALSE (case-insensitive).
 gui.geom.ProtocolHierarchyDialog.maximized: FALSE
 
+# Geometry and maximized state of ip_hosts window.
+# Decimal integers.
+gui.geom.ip_hosts.x: -1690
+gui.geom.ip_hosts.y: 449
+gui.geom.ip_hosts.width: 843
+gui.geom.ip_hosts.height: 919
+# TRUE or FALSE (case-insensitive).
+gui.geom.ip_hosts.maximized: FALSE
+
+# Geometry and maximized state of hart_ip window.
+# Decimal integers.
+gui.geom.hart_ip.x: -1690
+gui.geom.hart_ip.y: 449
+gui.geom.hart_ip.width: 800
+gui.geom.hart_ip.height: 459
+# TRUE or FALSE (case-insensitive).
+gui.geom.hart_ip.maximized: FALSE
+
 # Geometry and maximized state of BluetoothHciSummaryDialog window.
 # Decimal integers.
 gui.geom.BluetoothHciSummaryDialog.x: 246
@@ -266,6 +293,15 @@ gui.geom.TrafficTableDialog.width: 1121
 gui.geom.TrafficTableDialog.height: 770
 # TRUE or FALSE (case-insensitive).
 gui.geom.TrafficTableDialog.maximized: FALSE
+
+# Geometry and maximized state of ip_srcdst window.
+# Decimal integers.
+gui.geom.ip_srcdst.x: -1690
+gui.geom.ip_srcdst.y: 449
+gui.geom.ip_srcdst.width: 800
+gui.geom.ip_srcdst.height: 459
+# TRUE or FALSE (case-insensitive).
+gui.geom.ip_srcdst.maximized: FALSE
 
 # Geometry and maximized state of dests window.
 # Decimal integers.
