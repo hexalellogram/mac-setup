@@ -25,6 +25,7 @@ brew "htop"
 brew "python@3.8"
 brew "imagemagick"
 brew "ispell"
+brew "kotlin"
 brew "mackup"
 brew "mas"
 brew "neofetch"
@@ -103,6 +104,7 @@ mas "Amphetamine", id: 937984704
 mas "Apple Configurator 2", id: 1037126344
 mas "Debit & Credit", id: 882637653
 mas "Hex Fiend", id: 1342896380
+mas "iMovie", id: 408981434
 mas "Messenger", id: 1480068668
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
