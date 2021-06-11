@@ -21,7 +21,7 @@ Last updated 02 August 2020
 - Xcode
 - `git`
 - `zsh`
-    - Oh My Zsh
+    - Oh My Zsh - themes are apparently not synced anymore so copy that manually
 - `ssh` (does not back up keys)
 
 ## Syncing Applications Not Covered by Mackup
