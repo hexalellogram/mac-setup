@@ -34,7 +34,7 @@ Last updated 02 August 2020
 - Logitech Options (sync handled by Logitech account)
 - Microsoft Edge (sync handled by Microsoft account)
 - Steam (Game Sync handled internally by Steam Cloud)
-- Visual Studio Code (sync handled by Settings Sync extension)
+- Visual Studio Code (sync handled by VSCode internal settings sync)
 
 ## Applications that do not need sync (and are not covered by Mackup)
 
