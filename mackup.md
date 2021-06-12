@@ -29,7 +29,7 @@ Last updated 02 August 2020
 - 1Password (sync handled by 1Password.com)
 - Alfred (sync handled by Google Drive)
 - Carbon Copy Cloner (`.ccctask` file exported to Google Drive)
-- Firefox (sync handled by Firefox Account)
+- Google Chrome (sync handled by Google Account)
 - GPG Suite (keys must be exported/imported manually)
 - Logitech Options (sync handled by Logitech account)
 - Microsoft Edge (sync handled by Microsoft account)
