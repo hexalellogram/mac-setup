@@ -1,4 +1,4 @@
-# Common recent settings file for Wireshark 3.4.4.
+# Common recent settings file for Wireshark 3.4.6.
 #
 # This file is regenerated each time Wireshark is quit
 # and when changing configuration profile.
@@ -6,7 +6,6 @@
 
 ######## Recent capture files (latest last), cannot be altered through command line ########
 
-recent.capture_file: /Users/bryce/Downloads/ws_ctf/wwb001-movietime.pcapng
 recent.capture_file: /Users/bryce/Downloads/ncl/torrent challenge/torrent.pcap
 recent.capture_file: /Users/bryce/Downloads/individual_ncl/checksum/checksum.pcap
 recent.capture_file: /Users/bryce/Downloads/individual_ncl/WPAD/wpad.pcapng
@@ -16,6 +15,7 @@ recent.capture_file: /Users/bryce/Downloads/team_ncl/network_netbios/Netbios.pca
 recent.capture_file: /Users/bryce/Downloads/team_ncl/network_cracking/Cracking.pcap
 recent.capture_file: /Users/bryce/Downloads/team_ncl/network_stolen_ip/stolen_ip.pcap
 recent.capture_file: /Users/bryce/Downloads/team_ncl/network_usb_keyboard/usb.pcapng
+recent.capture_file: /Users/bryce/Downloads/smallFlows.pcap
 
 ######## Recent capture filters (latest last), cannot be altered through command line ########
 

@@ -1,4 +1,4 @@
-# Recent settings file for Wireshark 3.4.4.
+# Recent settings file for Wireshark 3.4.6.
 #
 # This file is regenerated each time Wireshark is quit
 # and when changing configuration profile.
@@ -86,7 +86,7 @@ column.width:
         %d, 468,
         %p, 224,
         %L, 132,
-        %i, 1982
+        %i, 1958
 
 # Open conversation dialog tabs.
 # List of conversation names, e.g. "TCP", "IPv6".
@@ -107,7 +107,7 @@ gui.endpoint_tabs:
 gui.rlc_pdus_from_mac_frames: FALSE
 
 # Last directory navigated to in File Open dialog.
-gui.fileopen_remembered_dir: /Users/bryce/Downloads/team_ncl/network_usb_keyboard/
+gui.fileopen_remembered_dir: /Users/bryce/Downloads/
 
 # Additional Toolbars shown
 # List of additional toolbars to show.

@@ -1,6 +1,6 @@
 # GIMP user context
 
-(tool "gimp-move-tool")
+(tool "gimp-text-tool")
 (paint-info "gimp-paintbrush")
 (foreground (color-rgb 0.10879999999999992 0.38857142857142857 0.059980824544582936))
 (opacity 0.95999999999999996)
