@@ -89,6 +89,7 @@ If noted, settings must be enabled manually
         - Display up to 49 participants in gallery view
     - Audio
         - Join audio by computer when joining a meeting
+        - Mute my mic when joining a meeting
     - Share Screen
         - Disable enter full screen when a participant shares screen
     - Chat
