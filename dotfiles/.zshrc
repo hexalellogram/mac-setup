@@ -148,3 +148,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+
+# CSE 124
+export PATH=$PATH:/usr/local/go/bin     # making sure go is on path
+export PATH="/usr/local/opt/go@1.14/bin:$PATH"
