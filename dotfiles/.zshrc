@@ -153,3 +153,5 @@ source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.
 export PATH=$PATH:/usr/local/go/bin     # making sure go is on path
 export PATH="/usr/local/opt/go@1.14/bin:$PATH"
 export GOPATH="/Users/bryce/Git/CSE124/project-3-hexalellogram"
+export GO111MODULE=off
+
