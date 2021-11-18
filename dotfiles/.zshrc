@@ -61,7 +61,7 @@ ZSH_THEME="af-magic-BT"
 plugins=(
   git
   brew
-  osx
+  macos
   wd
   sudo 
 )
