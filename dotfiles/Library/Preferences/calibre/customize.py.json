@@ -1,14 +1,14 @@
 {
   "disabled_plugins": {
-    "__class__": "set", 
+    "__class__": "set",
     "__value__": []
-  }, 
+  },
   "enabled_plugins": {
-    "__class__": "set", 
+    "__class__": "set",
     "__value__": []
-  }, 
-  "filetype_mapping": {}, 
-  "plugin_customization": {}, 
+  },
+  "filetype_mapping": {},
+  "plugin_customization": {},
   "plugins": {
     "DeDRM": "/Users/bryce/Library/Preferences/calibre/plugins/DeDRM.zip"
   }
