@@ -150,9 +150,9 @@ source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.in
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 
 # CSE 124
-export PATH=$PATH:/usr/local/go/bin     # making sure go is on path
-export PATH="/usr/local/opt/go@1.14/bin:$PATH"
-export GOPATH="/Users/bryce/Git/CSE124/project-4-hexalellogram"
-export PATH=$PATH:$GOPATH/bin
-export GO111MODULE=off
+#export PATH=$PATH:/usr/local/go/bin     # making sure go is on path
+#export PATH="/usr/local/opt/go@1.14/bin:$PATH"
+#export GOPATH="/Users/bryce/Git/CSE124/project-4-hexalellogram"
+#export PATH=$PATH:$GOPATH/bin
+#export GO111MODULE=off
 
