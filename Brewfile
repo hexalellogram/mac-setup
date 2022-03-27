@@ -62,7 +62,6 @@ cask "utm"
 cask "visual-studio-code"
 cask "wireshark"
 cask "zoom"
-cask "zulu8"
 mas "Amphetamine", id: 937984704
 mas "Debit & Credit", id: 882637653
 mas "GarageBand", id: 682658836
