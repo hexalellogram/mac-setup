@@ -162,4 +162,4 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Add anaconda to path for CSE 150B
-export PATH="/usr/local/anaconda3/bin:$PATH"
+export PATH="/opt/homebrew/anaconda3/bin:$PATH"
