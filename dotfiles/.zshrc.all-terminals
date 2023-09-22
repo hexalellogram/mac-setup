@@ -122,9 +122,6 @@ if [[ $TERM_PROGRAM != "WarpTerminal" ]]; then
     bindkey -s "^[OX" "="
 fi
 
-# Set default AWS Profile to Infrastructure
-export AWS_PROFILE=infra-gusto-main
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
