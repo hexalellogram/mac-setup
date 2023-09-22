@@ -9,6 +9,3 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
-# Set default AWS Profile to Infrastructure
-export AWS_PROFILE=infra-gusto-main
