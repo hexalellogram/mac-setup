@@ -1,4 +1,4 @@
-# Common recent settings file for Wireshark 3.6.3.
+# Common recent settings file for Wireshark 4.0.6.
 #
 # This file is regenerated each time Wireshark is quit
 # and when changing configuration profile.
@@ -17,7 +17,7 @@
 # Decimal numbers.
 gui.geometry_main_x: 50
 gui.geometry_main_y: 50
-gui.geometry_main_width: 750
+gui.geometry_main_width: 798
 gui.geometry_main_height: 550
 
 # Main window maximized.
